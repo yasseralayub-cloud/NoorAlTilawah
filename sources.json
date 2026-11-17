@@ -1,3 +1,4 @@
+
 {
   "version": 1,
   "sources": [
@@ -7,7 +8,63 @@
       "type": "quran",
       "publisher": "مجمع الملك فهد لطباعة المصحف الشريف",
       "url": "https://qurancomplex.gov.sa/",
-      "notes": "مواضع الآيات مثبتة بأرقام السور والآيات. تُراجع مطابقة الرسم والضبط مع المصحف المعتمد قبل النشر النهائي."
+      "notes": "المصدر المعتمد لنصوص الآيات القرآنية ومواضعها."
+    },
+    {
+      "id": "sahih_bukhari",
+      "name": "صحيح البخاري",
+      "type": "hadithCollection",
+      "publisher": "الإمام محمد بن إسماعيل البخاري",
+      "url": "https://sunnah.com/bukhari",
+      "notes": "تُذكر أرقام الأحاديث وفق ترقيم صحيح البخاري المتداول."
+    },
+    {
+      "id": "sahih_muslim",
+      "name": "صحيح مسلم",
+      "type": "hadithCollection",
+      "publisher": "الإمام مسلم بن الحجاج",
+      "url": "https://sunnah.com/muslim",
+      "notes": "تُذكر أرقام الأحاديث وفق ترقيم صحيح مسلم المتداول."
+    },
+    {
+      "id": "abu_dawud",
+      "name": "سنن أبي داود",
+      "type": "hadithCollection",
+      "publisher": "الإمام أبو داود السجستاني",
+      "url": "https://sunnah.com/abudawud",
+      "notes": "تُراجع الأحاديث وأحكامها قبل إضافتها."
+    },
+    {
+      "id": "tirmidhi",
+      "name": "جامع الترمذي",
+      "type": "hadithCollection",
+      "publisher": "الإمام محمد بن عيسى الترمذي",
+      "url": "https://sunnah.com/tirmidhi",
+      "notes": "تُراجع الأحاديث وأحكامها قبل إضافتها."
+    },
+    {
+      "id": "nasai",
+      "name": "سنن النسائي",
+      "type": "hadithCollection",
+      "publisher": "الإمام أحمد بن شعيب النسائي",
+      "url": "https://sunnah.com/nasai",
+      "notes": "تُراجع الأحاديث وأحكامها قبل إضافتها."
+    },
+    {
+      "id": "ibn_majah",
+      "name": "سنن ابن ماجه",
+      "type": "hadithCollection",
+      "publisher": "الإمام محمد بن يزيد ابن ماجه",
+      "url": "https://sunnah.com/ibnmajah",
+      "notes": "تُراجع الأحاديث وأحكامها قبل إضافتها."
+    },
+    {
+      "id": "hadith_grading",
+      "name": "أحكام المحدثين على الأحاديث",
+      "type": "hadithGrading",
+      "publisher": "مصادر أحكام الحديث المعتمدة",
+      "url": "https://dorar.net/hadith",
+      "notes": "يجب تسجيل حكم الحديث واسم العالم ومصدر الحكم لكل حديث يحتاج إلى تخريج."
     }
   ]
 }
