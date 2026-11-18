@@ -1,4 +1,3 @@
-
 {
   "version": 1,
   "categories": [
@@ -45,15 +44,1253 @@
   ],
   "items": [
     {
-      "id": "quran_dua_001",
-      "categoryId": "quran_duas",
+      "id": "morning_ikhlas_muawwidhat",
+      "categoryId": "morning",
+      "kind": "propheticDhikr",
+      "text": "قُلۡ هُوَ ٱللَّهُ أَحَدٌ ٱللَّهُ ٱلصَّمَدُ لَمۡ يَلِدۡ وَلَمۡ يُولَدۡ وَلَمۡ يَكُن لَّهُۥ كُفُوًا أَحَدُۢ\nقُلۡ أَعُوذُ بِرَبِّ ٱلۡفَلَقِ مِن شَرِّ مَا خَلَقَ وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ وَمِن شَرِّ ٱلنَّفَّٰثَٰتِ فِي ٱلۡعُقَدِ وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ\nقُلۡ أَعُوذُ بِرَبِّ ٱلنَّاسِ مَلِكِ ٱلنَّاسِ إِلَٰهِ ٱلنَّاسِ مِن شَرِّ ٱلۡوَسۡوَاسِ ٱلۡخَنَّاسِ ٱلَّذِي يُوَسۡوِسُ فِي صُدُورِ ٱلنَّاسِ مِنَ ٱلۡجِنَّةِ وَٱلنَّاسِ",
+      "repeatCount": 3,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "tirmidhi",
+          "book": "سنن الترمذي",
+          "hadithNumber": "3575",
+          "companion": "عبد الله بن خبيب",
+          "grading": "حسن",
+          "grader": "الألباني",
+          "gradingSource": "أحكام الألباني على أحاديث السنن",
+          "gradingSourceId": "grading_albani"
+        },
+        {
+          "type": "quran",
+          "sourceId": "quran",
+          "surah": "الإخلاص",
+          "surahNumber": 112,
+          "ayahStart": 1,
+          "ayahEnd": 4
+        },
+        {
+          "type": "quran",
+          "sourceId": "quran",
+          "surah": "الفلق",
+          "surahNumber": 113,
+          "ayahStart": 1,
+          "ayahEnd": 5
+        },
+        {
+          "type": "quran",
+          "sourceId": "quran",
+          "surah": "الناس",
+          "surahNumber": 114,
+          "ayahStart": 1,
+          "ayahEnd": 6
+        }
+      ],
+      "virtues": [
+        {
+          "text": "تَكْفِيكَ مِنْ كُلِّ شَيْءٍ",
+          "referenceIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "morning_sayyid_al_istighfar",
+      "categoryId": "morning",
+      "kind": "propheticDua",
+      "text": "اللَّهُمَّ أَنْتَ رَبِّي، لاَ إِلَهَ إِلاَّ أَنْتَ، خَلَقْتَنِي وَأَنَا عَبْدُكَ، وَأَنَا عَلَى عَهْدِكَ وَوَعْدِكَ مَا اسْتَطَعْتُ، أَعُوذُ بِكَ مِنْ شَرِّ مَا صَنَعْتُ، أَبُوءُ لَكَ بِنِعْمَتِكَ عَلَىَّ وَأَبُوءُ لَكَ بِذَنْبِي، فَاغْفِرْ لِي، فَإِنَّهُ لاَ يَغْفِرُ الذُّنُوبَ إِلاَّ أَنْتَ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "bukhari",
+          "book": "صحيح البخاري",
+          "hadithNumber": "6306",
+          "companion": "شداد بن أوس",
+          "grading": "صحيح",
+          "grader": "البخاري",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        }
+      ],
+      "virtues": [
+        {
+          "text": "وَمَنْ قَالَهَا مِنَ النَّهَارِ مُوقِنًا بِهَا، فَمَاتَ مِنْ يَوْمِهِ قَبْلَ أَنْ يُمْسِيَ، فَهُوَ مِنْ أَهْلِ الْجَنَّةِ",
+          "referenceIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "morning_bismillah_la_yadurr",
+      "categoryId": "morning",
+      "kind": "propheticDhikr",
+      "text": "بِسْمِ اللَّهِ الَّذِي لاَ يَضُرُّ مَعَ اسْمِهِ شَيْءٌ فِي الأَرْضِ وَلاَ فِي السَّمَاءِ وَهُوَ السَّمِيعُ الْعَلِيمُ",
+      "repeatCount": 3,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "tirmidhi",
+          "book": "سنن الترمذي",
+          "hadithNumber": "3388",
+          "companion": "عثمان بن عفان",
+          "grading": "حسن صحيح",
+          "grader": "الألباني",
+          "gradingSource": "أحكام الألباني على أحاديث السنن",
+          "gradingSourceId": "grading_albani"
+        },
+        {
+          "type": "hadith",
+          "sourceId": "abudawud",
+          "book": "سنن أبي داود",
+          "hadithNumber": "5088",
+          "companion": "عثمان بن عفان",
+          "grading": "صحيح",
+          "grader": "الألباني",
+          "gradingSource": "أحكام الألباني على أحاديث السنن",
+          "gradingSourceId": "grading_albani"
+        }
+      ],
+      "virtues": [
+        {
+          "text": "مَنْ قَالَهَا حِينَ يُصْبِحُ ثَلاَثَ مَرَّاتٍ لَمْ تُصِبْهُ فَجْأَةُ بَلاَءٍ حَتَّى يُمْسِيَ",
+          "referenceIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "morning_subhanallah_wabihamdih_100",
+      "categoryId": "morning",
+      "kind": "propheticDhikr",
+      "text": "سُبْحَانَ اللَّهِ وَبِحَمْدِهِ",
+      "repeatCount": 100,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "muslim",
+          "book": "صحيح مسلم",
+          "hadithNumber": "2692",
+          "companion": "أبو هريرة",
+          "grading": "صحيح",
+          "grader": "مسلم",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        }
+      ],
+      "virtues": [
+        {
+          "text": "لَمْ يَأْتِ أَحَدٌ يَوْمَ الْقِيَامَةِ بِأَفْضَلَ مِمَّا جَاءَ بِهِ إِلاَّ أَحَدٌ قَالَ مِثْلَ مَا قَالَ أَوْ زَادَ عَلَيْهِ",
+          "referenceIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "morning_allahumma_bika_asbahna",
+      "categoryId": "morning",
+      "kind": "propheticDhikr",
+      "text": "اللَّهُمَّ بِكَ أَصْبَحْنَا وَبِكَ أَمْسَيْنَا وَبِكَ نَحْيَا وَبِكَ نَمُوتُ وَإِلَيْكَ النُّشُورُ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "abudawud",
+          "book": "سنن أبي داود",
+          "hadithNumber": "5068",
+          "companion": "أبو هريرة",
+          "grading": "صحيح",
+          "grader": "الألباني",
+          "gradingSource": "أحكام الألباني على أحاديث السنن",
+          "gradingSourceId": "grading_albani"
+        }
+      ]
+    },
+    {
+      "id": "morning_asbahna_wa_asbaha_al_mulk",
+      "categoryId": "morning",
+      "kind": "propheticDhikr",
+      "text": "أَصْبَحْنَا وَأَصْبَحَ الْمُلْكُ لِلَّهِ وَالْحَمْدُ لِلَّهِ لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ\nلَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَىْءٍ قَدِيرٌ\nرَبِّ أَسْأَلُكَ خَيْرَ مَا فِي هَذَا الْيَوْمِ وَخَيْرَ مَا بَعْدَهُ وَأَعُوذُ بِكَ مِنْ شَرِّ مَا فِي هَذَا الْيَوْمِ وَشَرِّ مَا بَعْدَهُ رَبِّ أَعُوذُ بِكَ مِنَ الْكَسَلِ وَسُوءِ الْكِبَرِ رَبِّ أَعُوذُ بِكَ مِنْ عَذَابٍ فِي النَّارِ وَعَذَابٍ فِي الْقَبْرِ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "muslim",
+          "book": "صحيح مسلم",
+          "hadithNumber": "2723",
+          "companion": "عبد الله بن مسعود",
+          "grading": "صحيح",
+          "grader": "مسلم",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        }
+      ],
+      "notes": "لفظ الصباح مأخوذ من قول الراوي في الحديث: «وإذا أصبح قال ذلك أيضًا: أصبحنا وأصبح الملك لله»، مع تبديل ظرف الزمان (اليوم بدل الليلة)."
+    },
+    {
+      "id": "morning_allahumma_afw_afiyah",
+      "categoryId": "morning",
+      "kind": "propheticDua",
+      "text": "اللَّهُمَّ إِنِّي أَسْأَلُكَ الْعَفْوَ وَالْعَافِيَةَ فِي الدُّنْيَا وَالآخِرَةِ اللَّهُمَّ إِنِّي أَسْأَلُكَ الْعَفْوَ وَالْعَافِيَةَ فِي دِينِي وَدُنْيَاىَ وَأَهْلِي وَمَالِي اللَّهُمَّ اسْتُرْ عَوْرَاتِي وَآمِنْ رَوْعَاتِي وَاحْفَظْنِي مِنْ بَيْنِ يَدَىَّ وَمِنْ خَلْفِي وَعَنْ يَمِينِي وَعَنْ شِمَالِي وَمِنْ فَوْقِي وَأَعُوذُ بِكَ أَنْ أُغْتَالَ مِنْ تَحْتِي",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "ibnmajah",
+          "book": "سنن ابن ماجه",
+          "hadithNumber": "3871",
+          "companion": "عبد الله بن عمر",
+          "grading": "صحيح",
+          "grader": "الألباني",
+          "gradingSource": "أحكام الألباني على أحاديث السنن",
+          "gradingSourceId": "grading_albani"
+        }
+      ]
+    },
+    {
+      "id": "evening_ikhlas_muawwidhat",
+      "categoryId": "evening",
+      "kind": "propheticDhikr",
+      "text": "قُلۡ هُوَ ٱللَّهُ أَحَدٌ ٱللَّهُ ٱلصَّمَدُ لَمۡ يَلِدۡ وَلَمۡ يُولَدۡ وَلَمۡ يَكُن لَّهُۥ كُفُوًا أَحَدُۢ\nقُلۡ أَعُوذُ بِرَبِّ ٱلۡفَلَقِ مِن شَرِّ مَا خَلَقَ وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ وَمِن شَرِّ ٱلنَّفَّٰثَٰتِ فِي ٱلۡعُقَدِ وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ\nقُلۡ أَعُوذُ بِرَبِّ ٱلنَّاسِ مَلِكِ ٱلنَّاسِ إِلَٰهِ ٱلنَّاسِ مِن شَرِّ ٱلۡوَسۡوَاسِ ٱلۡخَنَّاسِ ٱلَّذِي يُوَسۡوِسُ فِي صُدُورِ ٱلنَّاسِ مِنَ ٱلۡجِنَّةِ وَٱلنَّاسِ",
+      "repeatCount": 3,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "tirmidhi",
+          "book": "سنن الترمذي",
+          "hadithNumber": "3575",
+          "companion": "عبد الله بن خبيب",
+          "grading": "حسن",
+          "grader": "الألباني",
+          "gradingSource": "أحكام الألباني على أحاديث السنن",
+          "gradingSourceId": "grading_albani"
+        },
+        {
+          "type": "quran",
+          "sourceId": "quran",
+          "surah": "الإخلاص",
+          "surahNumber": 112,
+          "ayahStart": 1,
+          "ayahEnd": 4
+        },
+        {
+          "type": "quran",
+          "sourceId": "quran",
+          "surah": "الفلق",
+          "surahNumber": 113,
+          "ayahStart": 1,
+          "ayahEnd": 5
+        },
+        {
+          "type": "quran",
+          "sourceId": "quran",
+          "surah": "الناس",
+          "surahNumber": 114,
+          "ayahStart": 1,
+          "ayahEnd": 6
+        }
+      ],
+      "virtues": [
+        {
+          "text": "تَكْفِيكَ مِنْ كُلِّ شَيْءٍ",
+          "referenceIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "evening_sayyid_al_istighfar",
+      "categoryId": "evening",
+      "kind": "propheticDua",
+      "text": "اللَّهُمَّ أَنْتَ رَبِّي، لاَ إِلَهَ إِلاَّ أَنْتَ، خَلَقْتَنِي وَأَنَا عَبْدُكَ، وَأَنَا عَلَى عَهْدِكَ وَوَعْدِكَ مَا اسْتَطَعْتُ، أَعُوذُ بِكَ مِنْ شَرِّ مَا صَنَعْتُ، أَبُوءُ لَكَ بِنِعْمَتِكَ عَلَىَّ وَأَبُوءُ لَكَ بِذَنْبِي، فَاغْفِرْ لِي، فَإِنَّهُ لاَ يَغْفِرُ الذُّنُوبَ إِلاَّ أَنْتَ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "bukhari",
+          "book": "صحيح البخاري",
+          "hadithNumber": "6306",
+          "companion": "شداد بن أوس",
+          "grading": "صحيح",
+          "grader": "البخاري",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        }
+      ],
+      "virtues": [
+        {
+          "text": "وَمَنْ قَالَهَا مِنَ اللَّيْلِ وَهْوَ مُوقِنٌ بِهَا، فَمَاتَ قَبْلَ أَنْ يُصْبِحَ، فَهْوَ مِنْ أَهْلِ الْجَنَّةِ",
+          "referenceIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "evening_bismillah_la_yadurr",
+      "categoryId": "evening",
+      "kind": "propheticDhikr",
+      "text": "بِسْمِ اللَّهِ الَّذِي لاَ يَضُرُّ مَعَ اسْمِهِ شَيْءٌ فِي الأَرْضِ وَلاَ فِي السَّمَاءِ وَهُوَ السَّمِيعُ الْعَلِيمُ",
+      "repeatCount": 3,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "tirmidhi",
+          "book": "سنن الترمذي",
+          "hadithNumber": "3388",
+          "companion": "عثمان بن عفان",
+          "grading": "حسن صحيح",
+          "grader": "الألباني",
+          "gradingSource": "أحكام الألباني على أحاديث السنن",
+          "gradingSourceId": "grading_albani"
+        },
+        {
+          "type": "hadith",
+          "sourceId": "abudawud",
+          "book": "سنن أبي داود",
+          "hadithNumber": "5088",
+          "companion": "عثمان بن عفان",
+          "grading": "صحيح",
+          "grader": "الألباني",
+          "gradingSource": "أحكام الألباني على أحاديث السنن",
+          "gradingSourceId": "grading_albani"
+        }
+      ],
+      "virtues": [
+        {
+          "text": "لَمْ تُصِبْهُ فَجْأَةُ بَلاَءٍ حَتَّى يُصْبِحَ",
+          "referenceIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "evening_subhanallah_wabihamdih_100",
+      "categoryId": "evening",
+      "kind": "propheticDhikr",
+      "text": "سُبْحَانَ اللَّهِ وَبِحَمْدِهِ",
+      "repeatCount": 100,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "muslim",
+          "book": "صحيح مسلم",
+          "hadithNumber": "2692",
+          "companion": "أبو هريرة",
+          "grading": "صحيح",
+          "grader": "مسلم",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        }
+      ],
+      "virtues": [
+        {
+          "text": "لَمْ يَأْتِ أَحَدٌ يَوْمَ الْقِيَامَةِ بِأَفْضَلَ مِمَّا جَاءَ بِهِ إِلاَّ أَحَدٌ قَالَ مِثْلَ مَا قَالَ أَوْ زَادَ عَلَيْهِ",
+          "referenceIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "evening_allahumma_bika_amsayna",
+      "categoryId": "evening",
+      "kind": "propheticDhikr",
+      "text": "اللَّهُمَّ بِكَ أَمْسَيْنَا وَبِكَ نَحْيَا وَبِكَ نَمُوتُ وَإِلَيْكَ النُّشُورُ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "abudawud",
+          "book": "سنن أبي داود",
+          "hadithNumber": "5068",
+          "companion": "أبو هريرة",
+          "grading": "صحيح",
+          "grader": "الألباني",
+          "gradingSource": "أحكام الألباني على أحاديث السنن",
+          "gradingSourceId": "grading_albani"
+        }
+      ]
+    },
+    {
+      "id": "evening_audhu_bikalimat",
+      "categoryId": "evening",
+      "kind": "propheticDhikr",
+      "text": "أَعُوذُ بِكَلِمَاتِ اللَّهِ التَّامَّاتِ مِنْ شَرِّ مَا خَلَقَ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "muslim",
+          "book": "صحيح مسلم",
+          "hadithNumber": "2709",
+          "companion": "أبو هريرة",
+          "grading": "صحيح",
+          "grader": "مسلم",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        },
+        {
+          "type": "hadith",
+          "sourceId": "abudawud",
+          "book": "سنن أبي داود",
+          "hadithNumber": "3898",
+          "companion": "رجل من أسلم من الصحابة",
+          "grading": "صحيح",
+          "grader": "الألباني",
+          "gradingSource": "أحكام الألباني على أحاديث السنن",
+          "gradingSourceId": "grading_albani"
+        }
+      ],
+      "virtues": [
+        {
+          "text": "لَوْ قُلْتَ حِينَ أَمْسَيْتَ أَعُوذُ بِكَلِمَاتِ اللَّهِ التَّامَّاتِ مِنْ شَرِّ مَا خَلَقَ لَمْ تَضُرَّكَ",
+          "referenceIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "evening_amsayna_wa_amsa_al_mulk",
+      "categoryId": "evening",
+      "kind": "propheticDhikr",
+      "text": "أَمْسَيْنَا وَأَمْسَى الْمُلْكُ لِلَّهِ وَالْحَمْدُ لِلَّهِ لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ\nلَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَىْءٍ قَدِيرٌ\nرَبِّ أَسْأَلُكَ خَيْرَ مَا فِي هَذِهِ اللَّيْلَةِ وَخَيْرَ مَا بَعْدَهَا وَأَعُوذُ بِكَ مِنْ شَرِّ مَا فِي هَذِهِ اللَّيْلَةِ وَشَرِّ مَا بَعْدَهَا رَبِّ أَعُوذُ بِكَ مِنَ الْكَسَلِ وَسُوءِ الْكِبَرِ رَبِّ أَعُوذُ بِكَ مِنْ عَذَابٍ فِي النَّارِ وَعَذَابٍ فِي الْقَبْرِ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "muslim",
+          "book": "صحيح مسلم",
+          "hadithNumber": "2723",
+          "companion": "عبد الله بن مسعود",
+          "grading": "صحيح",
+          "grader": "مسلم",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        }
+      ]
+    },
+    {
+      "id": "evening_allahumma_afw_afiyah",
+      "categoryId": "evening",
+      "kind": "propheticDua",
+      "text": "اللَّهُمَّ إِنِّي أَسْأَلُكَ الْعَفْوَ وَالْعَافِيَةَ فِي الدُّنْيَا وَالآخِرَةِ اللَّهُمَّ إِنِّي أَسْأَلُكَ الْعَفْوَ وَالْعَافِيَةَ فِي دِينِي وَدُنْيَاىَ وَأَهْلِي وَمَالِي اللَّهُمَّ اسْتُرْ عَوْرَاتِي وَآمِنْ رَوْعَاتِي وَاحْفَظْنِي مِنْ بَيْنِ يَدَىَّ وَمِنْ خَلْفِي وَعَنْ يَمِينِي وَعَنْ شِمَالِي وَمِنْ فَوْقِي وَأَعُوذُ بِكَ أَنْ أُغْتَالَ مِنْ تَحْتِي",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "ibnmajah",
+          "book": "سنن ابن ماجه",
+          "hadithNumber": "3871",
+          "companion": "عبد الله بن عمر",
+          "grading": "صحيح",
+          "grader": "الألباني",
+          "gradingSource": "أحكام الألباني على أحاديث السنن",
+          "gradingSourceId": "grading_albani"
+        }
+      ]
+    },
+    {
+      "id": "after_prayer_istighfar",
+      "categoryId": "after_prayer",
+      "kind": "propheticDhikr",
+      "text": "أَسْتَغْفِرُ اللَّهَ",
+      "repeatCount": 3,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "muslim",
+          "book": "صحيح مسلم",
+          "hadithNumber": "591",
+          "companion": "ثوبان مولى رسول الله ﷺ",
+          "grading": "صحيح",
+          "grader": "مسلم",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        }
+      ],
+      "notes": "ورد في الحديث: «كان إذا انصرف من صلاته استغفر ثلاثًا»؛ ولفظ الاستغفار المعروف «أستغفر الله» مأخوذ من معنى الفعل."
+    },
+    {
+      "id": "after_prayer_allahumma_antas_salam",
+      "categoryId": "after_prayer",
+      "kind": "propheticDhikr",
+      "text": "اللَّهُمَّ أَنْتَ السَّلاَمُ وَمِنْكَ السَّلاَمُ تَبَارَكْتَ ذَا الْجَلاَلِ وَالإِكْرَامِ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "muslim",
+          "book": "صحيح مسلم",
+          "hadithNumber": "591",
+          "companion": "ثوبان مولى رسول الله ﷺ",
+          "grading": "صحيح",
+          "grader": "مسلم",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        }
+      ]
+    },
+    {
+      "id": "after_prayer_la_ilaha_illallah_la_mania",
+      "categoryId": "after_prayer",
+      "kind": "propheticDhikr",
+      "text": "لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ، لَهُ الْمُلْكُ، وَلَهُ الْحَمْدُ، وَهْوَ عَلَى كُلِّ شَىْءٍ قَدِيرٌ، اللَّهُمَّ لاَ مَانِعَ لِمَا أَعْطَيْتَ، وَلاَ مُعْطِيَ لِمَا مَنَعْتَ، وَلاَ يَنْفَعُ ذَا الْجَدِّ مِنْكَ الْجَدُّ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "bukhari",
+          "book": "صحيح البخاري",
+          "hadithNumber": "844",
+          "companion": "المغيرة بن شعبة",
+          "grading": "صحيح",
+          "grader": "البخاري",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        },
+        {
+          "type": "hadith",
+          "sourceId": "muslim",
+          "book": "صحيح مسلم",
+          "hadithNumber": "593",
+          "companion": "المغيرة بن شعبة",
+          "grading": "صحيح",
+          "grader": "مسلم",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        }
+      ]
+    },
+    {
+      "id": "after_prayer_allahumma_aini",
+      "categoryId": "after_prayer",
+      "kind": "propheticDua",
+      "text": "اللَّهُمَّ أَعِنِّي عَلَى ذِكْرِكَ وَشُكْرِكَ وَحُسْنِ عِبَادَتِكَ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "abudawud",
+          "book": "سنن أبي داود",
+          "hadithNumber": "1522",
+          "companion": "معاذ بن جبل",
+          "grading": "صحيح",
+          "grader": "الألباني",
+          "gradingSource": "أحكام الألباني على أحاديث السنن",
+          "gradingSourceId": "grading_albani"
+        }
+      ]
+    },
+    {
+      "id": "after_prayer_taawwudh_bukhl",
+      "categoryId": "after_prayer",
+      "kind": "propheticDua",
+      "text": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْبُخْلِ، وَأَعُوذُ بِكَ مِنَ الْجُبْنِ، وَأَعُوذُ بِكَ أَنْ أُرَدَّ إِلَى أَرْذَلِ الْعُمُرِ، وَأَعُوذُ بِكَ مِنْ فِتْنَةِ الدُّنْيَا يَعْنِي فِتْنَةَ الدَّجَّالِ وَأَعُوذُ بِكَ مِنْ عَذَابِ الْقَبْرِ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "bukhari",
+          "book": "صحيح البخاري",
+          "hadithNumber": "6365",
+          "companion": "سعد بن أبي وقاص",
+          "grading": "صحيح",
+          "grader": "البخاري",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        }
+      ]
+    },
+    {
+      "id": "after_prayer_muawwidhat",
+      "categoryId": "after_prayer",
+      "kind": "propheticDhikr",
+      "text": "قُلۡ هُوَ ٱللَّهُ أَحَدٌ ٱللَّهُ ٱلصَّمَدُ لَمۡ يَلِدۡ وَلَمۡ يُولَدۡ وَلَمۡ يَكُن لَّهُۥ كُفُوًا أَحَدُۢ\nقُلۡ أَعُوذُ بِرَبِّ ٱلۡفَلَقِ مِن شَرِّ مَا خَلَقَ وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ وَمِن شَرِّ ٱلنَّفَّٰثَٰتِ فِي ٱلۡعُقَدِ وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ\nقُلۡ أَعُوذُ بِرَبِّ ٱلنَّاسِ مَلِكِ ٱلنَّاسِ إِلَٰهِ ٱلنَّاسِ مِن شَرِّ ٱلۡوَسۡوَاسِ ٱلۡخَنَّاسِ ٱلَّذِي يُوَسۡوِسُ فِي صُدُورِ ٱلنَّاسِ مِنَ ٱلۡجِنَّةِ وَٱلنَّاسِ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "abudawud",
+          "book": "سنن أبي داود",
+          "hadithNumber": "1523",
+          "companion": "عقبة بن عامر",
+          "grading": "صحيح",
+          "grader": "الألباني",
+          "gradingSource": "أحكام الألباني على أحاديث السنن",
+          "gradingSourceId": "grading_albani"
+        },
+        {
+          "type": "quran",
+          "sourceId": "quran",
+          "surah": "الإخلاص",
+          "surahNumber": 112,
+          "ayahStart": 1,
+          "ayahEnd": 4
+        },
+        {
+          "type": "quran",
+          "sourceId": "quran",
+          "surah": "الفلق",
+          "surahNumber": 113,
+          "ayahStart": 1,
+          "ayahEnd": 5
+        },
+        {
+          "type": "quran",
+          "sourceId": "quran",
+          "surah": "الناس",
+          "surahNumber": 114,
+          "ayahStart": 1,
+          "ayahEnd": 6
+        }
+      ],
+      "notes": "تُقرأ سورة الإخلاص والمعوذتان بعد كل صلاة."
+    },
+    {
+      "id": "sleep_ayat_al_kursi",
+      "categoryId": "sleep",
       "kind": "quran",
-      "text": "رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الْآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ",
+      "text": "ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ ٱلۡحَيُّ ٱلۡقَيُّومُۚ لَا تَأۡخُذُهُۥ سِنَةࣱ وَلَا نَوۡمࣱۚ لَّهُۥ مَا فِي ٱلسَّمَٰوَٰتِ وَمَا فِي ٱلۡأَرۡضِۗ مَن ذَا ٱلَّذِي يَشۡفَعُ عِندَهُۥٓ إِلَّا بِإِذۡنِهِۦۚ يَعۡلَمُ مَا بَيۡنَ أَيۡدِيهِمۡ وَمَا خَلۡفَهُمۡۖ وَلَا يُحِيطُونَ بِشَيۡءࣲ مِّنۡ عِلۡمِهِۦٓ إِلَّا بِمَا شَآءَۚ وَسِعَ كُرۡسِيُّهُ ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضَۖ وَلَا يَـُٔودُهُۥ حِفۡظُهُمَاۚ وَهُوَ ٱلۡعَلِيُّ ٱلۡعَظِيمُ",
       "repeatCount": 1,
       "references": [
         {
           "type": "quran",
-          "sourceId": "quran_hafs",
+          "sourceId": "quran",
+          "surah": "البقرة",
+          "surahNumber": 2,
+          "ayahStart": 255,
+          "ayahEnd": 255
+        },
+        {
+          "type": "hadith",
+          "sourceId": "bukhari",
+          "book": "صحيح البخاري",
+          "hadithNumber": "2311",
+          "companion": "أبو هريرة",
+          "grading": "صحيح",
+          "grader": "البخاري",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        }
+      ],
+      "virtues": [
+        {
+          "text": "لَنْ يَزَالَ عَلَيْكَ مِنَ اللَّهِ حَافِظٌ وَلاَ يَقْرَبَنَّكَ شَيْطَانٌ حَتَّى تُصْبِحَ",
+          "referenceIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "sleep_last_two_baqarah",
+      "categoryId": "sleep",
+      "kind": "quran",
+      "text": "ءَامَنَ ٱلرَّسُولُ بِمَآ أُنزِلَ إِلَيۡهِ مِن رَّبِّهِۦ وَٱلۡمُؤۡمِنُونَۚ كُلٌّ ءَامَنَ بِٱللَّهِ وَمَلَٰٓئِكَتِهِۦ وَكُتُبِهِۦ وَرُسُلِهِۦ لَا نُفَرِّقُ بَيۡنَ أَحَدࣲ مِّن رُّسُلِهِۦۚ وَقَالُواْ سَمِعۡنَا وَأَطَعۡنَاۖ غُفۡرَانَكَ رَبَّنَا وَإِلَيۡكَ ٱلۡمَصِيرُ لَا يُكَلِّفُ ٱللَّهُ نَفۡسًا إِلَّا وُسۡعَهَاۚ لَهَا مَا كَسَبَتۡ وَعَلَيۡهَا مَا ٱكۡتَسَبَتۡۗ رَبَّنَا لَا تُؤَاخِذۡنَآ إِن نَّسِينَآ أَوۡ أَخۡطَأۡنَاۚ رَبَّنَا وَلَا تَحۡمِلۡ عَلَيۡنَآ إِصۡرࣰا كَمَا حَمَلۡتَهُۥ عَلَى ٱلَّذِينَ مِن قَبۡلِنَاۚ رَبَّنَا وَلَا تُحَمِّلۡنَا مَا لَا طَاقَةَ لَنَا بِهِۦۖ وَٱعۡفُ عَنَّا وَٱغۡفِرۡ لَنَا وَٱرۡحَمۡنَآۚ أَنتَ مَوۡلَىٰنَا فَٱنصُرۡنَا عَلَى ٱلۡقَوۡمِ ٱلۡكَٰفِرِينَ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "quran",
+          "sourceId": "quran",
+          "surah": "البقرة",
+          "surahNumber": 2,
+          "ayahStart": 285,
+          "ayahEnd": 286
+        },
+        {
+          "type": "hadith",
+          "sourceId": "bukhari",
+          "book": "صحيح البخاري",
+          "hadithNumber": "5009",
+          "companion": "أبو مسعود الأنصاري",
+          "grading": "صحيح",
+          "grader": "البخاري",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        }
+      ],
+      "virtues": [
+        {
+          "text": "مَنْ قَرَأَ بِالآيَتَيْنِ مِنْ آخِرِ سُورَةِ الْبَقَرَةِ فِي لَيْلَةٍ كَفَتَاهُ",
+          "referenceIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "sleep_ikhlas_muawwidhat_nafth",
+      "categoryId": "sleep",
+      "kind": "propheticDhikr",
+      "text": "قُلۡ هُوَ ٱللَّهُ أَحَدٌ ٱللَّهُ ٱلصَّمَدُ لَمۡ يَلِدۡ وَلَمۡ يُولَدۡ وَلَمۡ يَكُن لَّهُۥ كُفُوًا أَحَدُۢ\nقُلۡ أَعُوذُ بِرَبِّ ٱلۡفَلَقِ مِن شَرِّ مَا خَلَقَ وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ وَمِن شَرِّ ٱلنَّفَّٰثَٰتِ فِي ٱلۡعُقَدِ وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ\nقُلۡ أَعُوذُ بِرَبِّ ٱلنَّاسِ مَلِكِ ٱلنَّاسِ إِلَٰهِ ٱلنَّاسِ مِن شَرِّ ٱلۡوَسۡوَاسِ ٱلۡخَنَّاسِ ٱلَّذِي يُوَسۡوِسُ فِي صُدُورِ ٱلنَّاسِ مِنَ ٱلۡجِنَّةِ وَٱلنَّاسِ",
+      "repeatCount": 3,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "bukhari",
+          "book": "صحيح البخاري",
+          "hadithNumber": "5017",
+          "companion": "عائشة",
+          "grading": "صحيح",
+          "grader": "البخاري",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        },
+        {
+          "type": "quran",
+          "sourceId": "quran",
+          "surah": "الإخلاص",
+          "surahNumber": 112,
+          "ayahStart": 1,
+          "ayahEnd": 4
+        },
+        {
+          "type": "quran",
+          "sourceId": "quran",
+          "surah": "الفلق",
+          "surahNumber": 113,
+          "ayahStart": 1,
+          "ayahEnd": 5
+        },
+        {
+          "type": "quran",
+          "sourceId": "quran",
+          "surah": "الناس",
+          "surahNumber": 114,
+          "ayahStart": 1,
+          "ayahEnd": 6
+        }
+      ],
+      "notes": "كان النبي ﷺ يجمع كفيه وينفث فيهما ويقرأ هذه السور ثم يمسح بهما ما استطاع من جسده، يبدأ بيديه على رأسه ووجهه وما أقبل من جسده، يفعل ذلك ثلاث مرات."
+    },
+    {
+      "id": "sleep_bismika_amutu",
+      "categoryId": "sleep",
+      "kind": "propheticDhikr",
+      "text": "بِاسْمِكَ أَمُوتُ وَأَحْيَا",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "bukhari",
+          "book": "صحيح البخاري",
+          "hadithNumber": "6312",
+          "companion": "حذيفة بن اليمان",
+          "grading": "صحيح",
+          "grader": "البخاري",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        }
+      ]
+    },
+    {
+      "id": "sleep_aslamtu_nafsi",
+      "categoryId": "sleep",
+      "kind": "propheticDua",
+      "text": "اللَّهُمَّ أَسْلَمْتُ وَجْهِي إِلَيْكَ، وَفَوَّضْتُ أَمْرِي إِلَيْكَ، وَأَلْجَأْتُ ظَهْرِي إِلَيْكَ، رَغْبَةً وَرَهْبَةً إِلَيْكَ، لاَ مَلْجَأَ وَلاَ مَنْجَا مِنْكَ إِلاَّ إِلَيْكَ، اللَّهُمَّ آمَنْتُ بِكِتَابِكَ الَّذِي أَنْزَلْتَ، وَبِنَبِيِّكَ الَّذِي أَرْسَلْتَ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "bukhari",
+          "book": "صحيح البخاري",
+          "hadithNumber": "247",
+          "companion": "البراء بن عازب",
+          "grading": "صحيح",
+          "grader": "البخاري",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        }
+      ],
+      "virtues": [
+        {
+          "text": "فَإِنْ مُتَّ مِنْ لَيْلَتِكَ فَأَنْتَ عَلَى الْفِطْرَةِ",
+          "referenceIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "sleep_bismika_rabbi_wadatu",
+      "categoryId": "sleep",
+      "kind": "propheticDua",
+      "text": "بِاسْمِكَ رَبِّ وَضَعْتُ جَنْبِي، وَبِكَ أَرْفَعُهُ، إِنْ أَمْسَكْتَ نَفْسِي فَارْحَمْهَا، وَإِنْ أَرْسَلْتَهَا فَاحْفَظْهَا بِمَا تَحْفَظُ بِهِ عِبَادَكَ الصَّالِحِينَ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "bukhari",
+          "book": "صحيح البخاري",
+          "hadithNumber": "6320",
+          "companion": "أبو هريرة",
+          "grading": "صحيح",
+          "grader": "البخاري",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        }
+      ]
+    },
+    {
+      "id": "sleep_allahumma_rabbas_samawat",
+      "categoryId": "sleep",
+      "kind": "propheticDua",
+      "text": "اللَّهُمَّ رَبَّ السَّمَوَاتِ وَرَبَّ الأَرْضِ وَرَبَّ الْعَرْشِ الْعَظِيمِ رَبَّنَا وَرَبَّ كُلِّ شَىْءٍ فَالِقَ الْحَبِّ وَالنَّوَى وَمُنْزِلَ التَّوْرَاةِ وَالإِنْجِيلِ وَالْفُرْقَانِ أَعُوذُ بِكَ مِنْ شَرِّ كُلِّ شَىْءٍ أَنْتَ آخِذٌ بِنَاصِيَتِهِ اللَّهُمَّ أَنْتَ الأَوَّلُ فَلَيْسَ قَبْلَكَ شَىْءٌ وَأَنْتَ الآخِرُ فَلَيْسَ بَعْدَكَ شَىْءٌ وَأَنْتَ الظَّاهِرُ فَلَيْسَ فَوْقَكَ شَىْءٌ وَأَنْتَ الْبَاطِنُ فَلَيْسَ دُونَكَ شَىْءٌ اقْضِ عَنَّا الدَّيْنَ وَأَغْنِنَا مِنَ الْفَقْرِ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "muslim",
+          "book": "صحيح مسلم",
+          "hadithNumber": "2713",
+          "companion": "أبو هريرة",
+          "grading": "صحيح",
+          "grader": "مسلم",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        }
+      ]
+    },
+    {
+      "id": "sleep_alhamdu_lillah_atamana",
+      "categoryId": "sleep",
+      "kind": "propheticDhikr",
+      "text": "الْحَمْدُ لِلَّهِ الَّذِي أَطْعَمَنَا وَسَقَانَا وَكَفَانَا وَآوَانَا فَكَمْ مِمَّنْ لاَ كَافِيَ لَهُ وَلاَ مُؤْوِيَ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "muslim",
+          "book": "صحيح مسلم",
+          "hadithNumber": "2715",
+          "companion": "أنس بن مالك",
+          "grading": "صحيح",
+          "grader": "مسلم",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        }
+      ]
+    },
+    {
+      "id": "sleep_tasbih_33",
+      "categoryId": "sleep",
+      "kind": "propheticDhikr",
+      "text": "سُبْحَانَ اللَّهِ",
+      "repeatCount": 33,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "bukhari",
+          "book": "صحيح البخاري",
+          "hadithNumber": "3113",
+          "companion": "علي بن أبي طالب",
+          "grading": "صحيح",
+          "grader": "البخاري",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        },
+        {
+          "type": "hadith",
+          "sourceId": "muslim",
+          "book": "صحيح مسلم",
+          "hadithNumber": "2727",
+          "companion": "علي بن أبي طالب",
+          "grading": "صحيح",
+          "grader": "مسلم",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        }
+      ],
+      "notes": "تسبيح 33 وتحميد 33 وتكبير 34 عند النوم؛ وقد ورد في الحديث بالأفعال (تسبّحين وتحمدين وتكبّرين)، ولفظ الذكر مأخوذ منها."
+    },
+    {
+      "id": "sleep_tahmid_33",
+      "categoryId": "sleep",
+      "kind": "propheticDhikr",
+      "text": "الْحَمْدُ لِلَّهِ",
+      "repeatCount": 33,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "bukhari",
+          "book": "صحيح البخاري",
+          "hadithNumber": "3113",
+          "companion": "علي بن أبي طالب",
+          "grading": "صحيح",
+          "grader": "البخاري",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        },
+        {
+          "type": "hadith",
+          "sourceId": "muslim",
+          "book": "صحيح مسلم",
+          "hadithNumber": "2727",
+          "companion": "علي بن أبي طالب",
+          "grading": "صحيح",
+          "grader": "مسلم",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        }
+      ],
+      "notes": "انظر ملاحظة التسبيح."
+    },
+    {
+      "id": "sleep_takbir_34",
+      "categoryId": "sleep",
+      "kind": "propheticDhikr",
+      "text": "اللَّهُ أَكْبَرُ",
+      "repeatCount": 34,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "bukhari",
+          "book": "صحيح البخاري",
+          "hadithNumber": "3113",
+          "companion": "علي بن أبي طالب",
+          "grading": "صحيح",
+          "grader": "البخاري",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        },
+        {
+          "type": "hadith",
+          "sourceId": "muslim",
+          "book": "صحيح مسلم",
+          "hadithNumber": "2727",
+          "companion": "علي بن أبي طالب",
+          "grading": "صحيح",
+          "grader": "مسلم",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        }
+      ],
+      "notes": "انظر ملاحظة التسبيح."
+    },
+    {
+      "id": "sleep_qini_adhabak",
+      "categoryId": "sleep",
+      "kind": "propheticDua",
+      "text": "اللَّهُمَّ قِنِي عَذَابَكَ يَوْمَ تَبْعَثُ عِبَادَكَ",
+      "repeatCount": 3,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "abudawud",
+          "book": "سنن أبي داود",
+          "hadithNumber": "5045",
+          "companion": "حفصة بنت عمر",
+          "grading": "صحيح",
+          "grader": "الألباني",
+          "gradingSource": "أحكام الألباني على أحاديث السنن",
+          "gradingSourceId": "grading_albani"
+        }
+      ]
+    },
+    {
+      "id": "waking_alhamdu_lillah_ahyana",
+      "categoryId": "waking",
+      "kind": "propheticDhikr",
+      "text": "الْحَمْدُ لِلَّهِ الَّذِي أَحْيَانَا بَعْدَ مَا أَمَاتَنَا وَإِلَيْهِ النُّشُورُ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "bukhari",
+          "book": "صحيح البخاري",
+          "hadithNumber": "6312",
+          "companion": "حذيفة بن اليمان",
+          "grading": "صحيح",
+          "grader": "البخاري",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        }
+      ]
+    },
+    {
+      "id": "waking_la_ilaha_illallah_tawaara",
+      "categoryId": "waking",
+      "kind": "propheticDhikr",
+      "text": "لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ، لَهُ الْمُلْكُ، وَلَهُ الْحَمْدُ، وَهُوَ عَلَى كُلِّ شَىْءٍ قَدِيرٌ. الْحَمْدُ لِلَّهِ، وَسُبْحَانَ اللَّهِ، وَلاَ إِلَهَ إِلاَّ اللَّهُ، وَاللَّهُ أَكْبَرُ، وَلاَ حَوْلَ وَلاَ قُوَّةَ إِلاَّ بِاللَّهِ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "bukhari",
+          "book": "صحيح البخاري",
+          "hadithNumber": "1154",
+          "companion": "عبادة بن الصامت",
+          "grading": "صحيح",
+          "grader": "البخاري",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        }
+      ],
+      "virtues": [
+        {
+          "text": "ثُمَّ قَالَ اللَّهُمَّ اغْفِرْ لِي. أَوْ دَعَا اسْتُجِيبَ، فَإِنْ تَوَضَّأَ وَصَلَّى قُبِلَتْ صَلاَتُهُ",
+          "referenceIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "daily_tahlil_100",
+      "categoryId": "daily",
+      "kind": "propheticDhikr",
+      "text": "لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ، لَهُ الْمُلْكُ، وَلَهُ الْحَمْدُ، وَهُوَ عَلَى كُلِّ شَىْءٍ قَدِيرٌ",
+      "repeatCount": 100,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "bukhari",
+          "book": "صحيح البخاري",
+          "hadithNumber": "3293",
+          "companion": "أبو هريرة",
+          "grading": "صحيح",
+          "grader": "البخاري",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        },
+        {
+          "type": "hadith",
+          "sourceId": "muslim",
+          "book": "صحيح مسلم",
+          "hadithNumber": "2691",
+          "companion": "أبو هريرة",
+          "grading": "صحيح",
+          "grader": "مسلم",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        }
+      ],
+      "virtues": [
+        {
+          "text": "كَانَتْ لَهُ عَدْلَ عَشْرِ رِقَابٍ، وَكُتِبَتْ لَهُ مِائَةُ حَسَنَةٍ، وَمُحِيَتْ عَنْهُ مِائَةُ سَيِّئَةٍ، وَكَانَتْ لَهُ حِرْزًا مِنَ الشَّيْطَانِ يَوْمَهُ ذَلِكَ حَتَّى يُمْسِيَ",
+          "referenceIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "daily_subhanallah_azim",
+      "categoryId": "daily",
+      "kind": "propheticDhikr",
+      "text": "سُبْحَانَ اللَّهِ الْعَظِيمِ، سُبْحَانَ اللَّهِ وَبِحَمْدِهِ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "bukhari",
+          "book": "صحيح البخاري",
+          "hadithNumber": "6406",
+          "companion": "أبو هريرة",
+          "grading": "صحيح",
+          "grader": "البخاري",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        },
+        {
+          "type": "hadith",
+          "sourceId": "muslim",
+          "book": "صحيح مسلم",
+          "hadithNumber": "2694",
+          "companion": "أبو هريرة",
+          "grading": "صحيح",
+          "grader": "مسلم",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        }
+      ],
+      "virtues": [
+        {
+          "text": "كَلِمَتَانِ خَفِيفَتَانِ عَلَى اللِّسَانِ، ثَقِيلَتَانِ فِي الْمِيزَانِ، حَبِيبَتَانِ إِلَى الرَّحْمَنِ",
+          "referenceIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "daily_ahabbul_kalam",
+      "categoryId": "daily",
+      "kind": "propheticDhikr",
+      "text": "سُبْحَانَ اللَّهِ وَالْحَمْدُ لِلَّهِ وَلاَ إِلَهَ إِلاَّ اللَّهُ وَاللَّهُ أَكْبَرُ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "muslim",
+          "book": "صحيح مسلم",
+          "hadithNumber": "2137",
+          "companion": "سمرة بن جندب",
+          "grading": "صحيح",
+          "grader": "مسلم",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        }
+      ]
+    },
+    {
+      "id": "daily_istighfar_70",
+      "categoryId": "daily",
+      "kind": "propheticDhikr",
+      "text": "أَسْتَغْفِرُ اللَّهَ وَأَتُوبُ إِلَيْهِ",
+      "repeatCount": 70,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "bukhari",
+          "book": "صحيح البخاري",
+          "hadithNumber": "6307",
+          "companion": "أبو هريرة",
+          "grading": "صحيح",
+          "grader": "البخاري",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        }
+      ],
+      "notes": "الحديث: «والله إني لأستغفر الله وأتوب إليه في اليوم أكثر من سبعين مرة»."
+    },
+    {
+      "id": "daily_hawqala",
+      "categoryId": "daily",
+      "kind": "propheticDhikr",
+      "text": "لاَ حَوْلَ وَلاَ قُوَّةَ إِلاَّ بِاللَّهِ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "bukhari",
+          "book": "صحيح البخاري",
+          "hadithNumber": "4205",
+          "companion": "أبو موسى الأشعري",
+          "grading": "صحيح",
+          "grader": "البخاري",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        }
+      ],
+      "virtues": [
+        {
+          "text": "كَنْزٍ مِنْ كُنُوزِ الْجَنَّةِ",
+          "referenceIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "daily_salawat_ibrahimiyya",
+      "categoryId": "daily",
+      "kind": "propheticDua",
+      "text": "اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ، وَعَلَى آلِ مُحَمَّدٍ، كَمَا صَلَّيْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ، إِنَّكَ حَمِيدٌ مَجِيدٌ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "bukhari",
+          "book": "صحيح البخاري",
+          "hadithNumber": "3370",
+          "companion": "كعب بن عجرة",
+          "grading": "صحيح",
+          "grader": "البخاري",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        },
+        {
+          "type": "hadith",
+          "sourceId": "muslim",
+          "book": "صحيح مسلم",
+          "hadithNumber": "408",
+          "companion": "أبو هريرة",
+          "grading": "صحيح",
+          "grader": "مسلم",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        }
+      ],
+      "virtues": [
+        {
+          "text": "مَنْ صَلَّى عَلَىَّ وَاحِدَةً صَلَّى اللَّهُ عَلَيْهِ عَشْرًا",
+          "referenceIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "daily_dua_after_adhan",
+      "categoryId": "daily",
+      "kind": "propheticDua",
+      "text": "اللَّهُمَّ رَبَّ هَذِهِ الدَّعْوَةِ التَّامَّةِ وَالصَّلاَةِ الْقَائِمَةِ آتِ مُحَمَّدًا الْوَسِيلَةَ وَالْفَضِيلَةَ وَابْعَثْهُ مَقَامًا مَحْمُودًا الَّذِي وَعَدْتَهُ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "bukhari",
+          "book": "صحيح البخاري",
+          "hadithNumber": "614",
+          "companion": "جابر بن عبد الله",
+          "grading": "صحيح",
+          "grader": "البخاري",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        }
+      ]
+    },
+    {
+      "id": "daily_shahada_after_adhan",
+      "categoryId": "daily",
+      "kind": "propheticDhikr",
+      "text": "أَشْهَدُ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ وَأَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ رَضِيتُ بِاللَّهِ رَبًّا وَبِمُحَمَّدٍ رَسُولاً وَبِالإِسْلاَمِ دِينًا",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "muslim",
+          "book": "صحيح مسلم",
+          "hadithNumber": "386",
+          "companion": "سعد بن أبي وقاص",
+          "grading": "صحيح",
+          "grader": "مسلم",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        }
+      ],
+      "virtues": [
+        {
+          "text": "غُفِرَ لَهُ ذَنْبُهُ",
+          "referenceIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "daily_rabbana_walakal_hamd",
+      "categoryId": "daily",
+      "kind": "propheticDhikr",
+      "text": "رَبَّنَا وَلَكَ الْحَمْدُ، حَمْدًا كَثِيرًا طَيِّبًا مُبَارَكًا فِيهِ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "bukhari",
+          "book": "صحيح البخاري",
+          "hadithNumber": "799",
+          "companion": "رفاعة بن رافع الزرقي",
+          "grading": "صحيح",
+          "grader": "البخاري",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        }
+      ]
+    },
+    {
+      "id": "daily_kaffarat_majlis",
+      "categoryId": "daily",
+      "kind": "propheticDhikr",
+      "text": "سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ أَشْهَدُ أَنْ لاَ إِلَهَ إِلاَّ أَنْتَ أَسْتَغْفِرُكَ وَأَتُوبُ إِلَيْكَ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "abudawud",
+          "book": "سنن أبي داود",
+          "hadithNumber": "4859",
+          "companion": "أبو برزة الأسلمي",
+          "grading": "حسن صحيح",
+          "grader": "الألباني",
+          "gradingSource": "أحكام الألباني على أحاديث السنن",
+          "gradingSourceId": "grading_albani"
+        }
+      ]
+    },
+    {
+      "id": "quran_dua_2_201",
+      "categoryId": "quran_duas",
+      "kind": "quran",
+      "text": "وَمِنۡهُم مَّن يَقُولُ رَبَّنَآ ءَاتِنَا فِي ٱلدُّنۡيَا حَسَنَةࣰ وَفِي ٱلۡأٓخِرَةِ حَسَنَةࣰ وَقِنَا عَذَابَ ٱلنَّارِ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "quran",
+          "sourceId": "quran",
           "surah": "البقرة",
           "surahNumber": 2,
           "ayahStart": 201,
@@ -62,118 +1299,32 @@
       ]
     },
     {
-      "id": "quran_dua_002",
-      "categoryId": "prophets_duas",
-      "kind": "quran",
-      "text": "رَبَّنَا ظَلَمْنَا أَنْفُسَنَا وَإِنْ لَمْ تَغْفِرْ لَنَا وَتَرْحَمْنَا لَنَكُونَنَّ مِنَ الْخَاسِرِينَ",
-      "repeatCount": 1,
-      "references": [
-        {
-          "type": "quran",
-          "sourceId": "quran_hafs",
-          "surah": "الأعراف",
-          "surahNumber": 7,
-          "ayahStart": 23,
-          "ayahEnd": 23
-        }
-      ]
-    },
-    {
-      "id": "quran_dua_003",
-      "categoryId": "prophets_duas",
-      "kind": "quran",
-      "text": "لَا إِلَهَ إِلَّا أَنْتَ سُبْحَانَكَ إِنِّي كُنْتُ مِنَ الظَّالِمِينَ",
-      "repeatCount": 1,
-      "references": [
-        {
-          "type": "quran",
-          "sourceId": "quran_hafs",
-          "surah": "الأنبياء",
-          "surahNumber": 21,
-          "ayahStart": 87,
-          "ayahEnd": 87
-        }
-      ]
-    },
-    {
-      "id": "quran_dua_004",
-      "categoryId": "prophets_duas",
-      "kind": "quran",
-      "text": "رَبِّ اشْرَحْ لِي صَدْرِي وَيَسِّرْ لِي أَمْرِي",
-      "repeatCount": 1,
-      "references": [
-        {
-          "type": "quran",
-          "sourceId": "quran_hafs",
-          "surah": "طه",
-          "surahNumber": 20,
-          "ayahStart": 25,
-          "ayahEnd": 26
-        }
-      ],
-      "notes": "هذا النص يجمع الدعاء الوارد في الآيتين 25 و26 من سورة طه."
-    },
-    {
-      "id": "quran_dua_005",
+      "id": "quran_dua_2_286",
       "categoryId": "quran_duas",
       "kind": "quran",
-      "text": "رَبِّ زِدْنِي عِلْمًا",
+      "text": "لَا يُكَلِّفُ ٱللَّهُ نَفۡسًا إِلَّا وُسۡعَهَاۚ لَهَا مَا كَسَبَتۡ وَعَلَيۡهَا مَا ٱكۡتَسَبَتۡۗ رَبَّنَا لَا تُؤَاخِذۡنَآ إِن نَّسِينَآ أَوۡ أَخۡطَأۡنَاۚ رَبَّنَا وَلَا تَحۡمِلۡ عَلَيۡنَآ إِصۡرࣰا كَمَا حَمَلۡتَهُۥ عَلَى ٱلَّذِينَ مِن قَبۡلِنَاۚ رَبَّنَا وَلَا تُحَمِّلۡنَا مَا لَا طَاقَةَ لَنَا بِهِۦۖ وَٱعۡفُ عَنَّا وَٱغۡفِرۡ لَنَا وَٱرۡحَمۡنَآۚ أَنتَ مَوۡلَىٰنَا فَٱنصُرۡنَا عَلَى ٱلۡقَوۡمِ ٱلۡكَٰفِرِينَ",
       "repeatCount": 1,
       "references": [
         {
           "type": "quran",
-          "sourceId": "quran_hafs",
-          "surah": "طه",
-          "surahNumber": 20,
-          "ayahStart": 114,
-          "ayahEnd": 114
+          "sourceId": "quran",
+          "surah": "البقرة",
+          "surahNumber": 2,
+          "ayahStart": 286,
+          "ayahEnd": 286
         }
       ]
     },
     {
-      "id": "quran_dua_006",
+      "id": "quran_dua_3_8",
       "categoryId": "quran_duas",
       "kind": "quran",
-      "text": "رَبَّنَا هَبْ لَنَا مِنْ أَزْوَاجِنَا وَذُرِّيَّاتِنَا قُرَّةَ أَعْيُنٍ وَاجْعَلْنَا لِلْمُتَّقِينَ إِمَامًا",
+      "text": "رَبَّنَا لَا تُزِغۡ قُلُوبَنَا بَعۡدَ إِذۡ هَدَيۡتَنَا وَهَبۡ لَنَا مِن لَّدُنكَ رَحۡمَةًۚ إِنَّكَ أَنتَ ٱلۡوَهَّابُ",
       "repeatCount": 1,
       "references": [
         {
           "type": "quran",
-          "sourceId": "quran_hafs",
-          "surah": "الفرقان",
-          "surahNumber": 25,
-          "ayahStart": 74,
-          "ayahEnd": 74
-        }
-      ]
-    },
-    {
-      "id": "quran_dua_007",
-      "categoryId": "quran_duas",
-      "kind": "quran",
-      "text": "رَبِّ اغْفِرْ لِي وَلِوَالِدَيَّ وَلِلْمُؤْمِنِينَ يَوْمَ يَقُومُ الْحِسَابُ",
-      "repeatCount": 1,
-      "references": [
-        {
-          "type": "quran",
-          "sourceId": "quran_hafs",
-          "surah": "إبراهيم",
-          "surahNumber": 14,
-          "ayahStart": 41,
-          "ayahEnd": 41
-        }
-      ]
-    },
-    {
-      "id": "quran_dua_008",
-      "categoryId": "quran_duas",
-      "kind": "quran",
-      "text": "رَبَّنَا لَا تُزِغْ قُلُوبَنَا بَعْدَ إِذْ هَدَيْتَنَا وَهَبْ لَنَا مِنْ لَدُنْكَ رَحْمَةً إِنَّكَ أَنْتَ الْوَهَّابُ",
-      "repeatCount": 1,
-      "references": [
-        {
-          "type": "quran",
-          "sourceId": "quran_hafs",
+          "sourceId": "quran",
           "surah": "آل عمران",
           "surahNumber": 3,
           "ayahStart": 8,
@@ -182,28 +1333,1542 @@
       ]
     },
     {
-      "id": "prophetic_dhikr_001",
-      "categoryId": "morning",
-      "kind": "propheticDhikr",
-      "text": "اللَّهُمَّ أَنْتَ رَبِّي لَا إِلَهَ إِلَّا أَنْتَ، خَلَقْتَنِي وَأَنَا عَبْدُكَ، وَأَنَا عَلَى عَهْدِكَ وَوَعْدِكَ مَا اسْتَطَعْتُ، أَعُوذُ بِكَ مِنْ شَرِّ مَا صَنَعْتُ، أَبُوءُ لَكَ بِنِعْمَتِكَ عَلَيَّ، وَأَبُوءُ بِذَنْبِي، فَاغْفِرْ لِي؛ فَإِنَّهُ لَا يَغْفِرُ الذُّنُوبَ إِلَّا أَنْتَ.",
+      "id": "quran_dua_3_191_194",
+      "categoryId": "quran_duas",
+      "kind": "quran",
+      "text": "ٱلَّذِينَ يَذۡكُرُونَ ٱللَّهَ قِيَٰمࣰا وَقُعُودࣰا وَعَلَىٰ جُنُوبِهِمۡ وَيَتَفَكَّرُونَ فِي خَلۡقِ ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضِ رَبَّنَا مَا خَلَقۡتَ هَٰذَا بَٰطِلࣰا سُبۡحَٰنَكَ فَقِنَا عَذَابَ ٱلنَّارِ رَبَّنَآ إِنَّكَ مَن تُدۡخِلِ ٱلنَّارَ فَقَدۡ أَخۡزَيۡتَهُۥۖ وَمَا لِلظَّٰلِمِينَ مِنۡ أَنصَارࣲ رَّبَّنَآ إِنَّنَا سَمِعۡنَا مُنَادِيࣰا يُنَادِي لِلۡإِيمَٰنِ أَنۡ ءَامِنُواْ بِرَبِّكُمۡ فَـَٔامَنَّاۚ رَبَّنَا فَٱغۡفِرۡ لَنَا ذُنُوبَنَا وَكَفِّرۡ عَنَّا سَيِّـَٔاتِنَا وَتَوَفَّنَا مَعَ ٱلۡأَبۡرَارِ رَبَّنَا وَءَاتِنَا مَا وَعَدتَّنَا عَلَىٰ رُسُلِكَ وَلَا تُخۡزِنَا يَوۡمَ ٱلۡقِيَٰمَةِۖ إِنَّكَ لَا تُخۡلِفُ ٱلۡمِيعَادَ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "quran",
+          "sourceId": "quran",
+          "surah": "آل عمران",
+          "surahNumber": 3,
+          "ayahStart": 191,
+          "ayahEnd": 194
+        }
+      ]
+    },
+    {
+      "id": "quran_dua_10_85_86",
+      "categoryId": "quran_duas",
+      "kind": "quran",
+      "text": "فَقَالُواْ عَلَى ٱللَّهِ تَوَكَّلۡنَا رَبَّنَا لَا تَجۡعَلۡنَا فِتۡنَةࣰ لِّلۡقَوۡمِ ٱلظَّٰلِمِينَ وَنَجِّنَا بِرَحۡمَتِكَ مِنَ ٱلۡقَوۡمِ ٱلۡكَٰفِرِينَ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "quran",
+          "sourceId": "quran",
+          "surah": "يونس",
+          "surahNumber": 10,
+          "ayahStart": 85,
+          "ayahEnd": 86
+        }
+      ]
+    },
+    {
+      "id": "quran_dua_17_24",
+      "categoryId": "quran_duas",
+      "kind": "quran",
+      "text": "وَٱخۡفِضۡ لَهُمَا جَنَاحَ ٱلذُّلِّ مِنَ ٱلرَّحۡمَةِ وَقُل رَّبِّ ٱرۡحَمۡهُمَا كَمَا رَبَّيَانِي صَغِيرࣰا",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "quran",
+          "sourceId": "quran",
+          "surah": "الإسراء",
+          "surahNumber": 17,
+          "ayahStart": 24,
+          "ayahEnd": 24
+        }
+      ]
+    },
+    {
+      "id": "quran_dua_18_10",
+      "categoryId": "quran_duas",
+      "kind": "quran",
+      "text": "إِذۡ أَوَى ٱلۡفِتۡيَةُ إِلَى ٱلۡكَهۡفِ فَقَالُواْ رَبَّنَآ ءَاتِنَا مِن لَّدُنكَ رَحۡمَةࣰ وَهَيِّئۡ لَنَا مِنۡ أَمۡرِنَا رَشَدࣰا",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "quran",
+          "sourceId": "quran",
+          "surah": "الكهف",
+          "surahNumber": 18,
+          "ayahStart": 10,
+          "ayahEnd": 10
+        }
+      ]
+    },
+    {
+      "id": "quran_dua_23_97_98",
+      "categoryId": "quran_duas",
+      "kind": "quran",
+      "text": "وَقُل رَّبِّ أَعُوذُ بِكَ مِنۡ هَمَزَٰتِ ٱلشَّيَٰطِينِ وَأَعُوذُ بِكَ رَبِّ أَن يَحۡضُرُونِ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "quran",
+          "sourceId": "quran",
+          "surah": "المؤمنون",
+          "surahNumber": 23,
+          "ayahStart": 97,
+          "ayahEnd": 98
+        }
+      ]
+    },
+    {
+      "id": "quran_dua_23_118",
+      "categoryId": "quran_duas",
+      "kind": "quran",
+      "text": "وَقُل رَّبِّ ٱغۡفِرۡ وَٱرۡحَمۡ وَأَنتَ خَيۡرُ ٱلرَّٰحِمِينَ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "quran",
+          "sourceId": "quran",
+          "surah": "المؤمنون",
+          "surahNumber": 23,
+          "ayahStart": 118,
+          "ayahEnd": 118
+        }
+      ]
+    },
+    {
+      "id": "quran_dua_25_65_66",
+      "categoryId": "quran_duas",
+      "kind": "quran",
+      "text": "وَٱلَّذِينَ يَقُولُونَ رَبَّنَا ٱصۡرِفۡ عَنَّا عَذَابَ جَهَنَّمَۖ إِنَّ عَذَابَهَا كَانَ غَرَامًا إِنَّهَا سَآءَتۡ مُسۡتَقَرࣰّا وَمُقَامࣰا",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "quran",
+          "sourceId": "quran",
+          "surah": "الفرقان",
+          "surahNumber": 25,
+          "ayahStart": 65,
+          "ayahEnd": 66
+        }
+      ]
+    },
+    {
+      "id": "quran_dua_25_74",
+      "categoryId": "quran_duas",
+      "kind": "quran",
+      "text": "وَٱلَّذِينَ يَقُولُونَ رَبَّنَا هَبۡ لَنَا مِنۡ أَزۡوَٰجِنَا وَذُرِّيَّٰتِنَا قُرَّةَ أَعۡيُنࣲ وَٱجۡعَلۡنَا لِلۡمُتَّقِينَ إِمَامًا",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "quran",
+          "sourceId": "quran",
+          "surah": "الفرقان",
+          "surahNumber": 25,
+          "ayahStart": 74,
+          "ayahEnd": 74
+        }
+      ]
+    },
+    {
+      "id": "quran_dua_59_10",
+      "categoryId": "quran_duas",
+      "kind": "quran",
+      "text": "وَٱلَّذِينَ جَآءُو مِنۢ بَعۡدِهِمۡ يَقُولُونَ رَبَّنَا ٱغۡفِرۡ لَنَا وَلِإِخۡوَٰنِنَا ٱلَّذِينَ سَبَقُونَا بِٱلۡإِيمَٰنِ وَلَا تَجۡعَلۡ فِي قُلُوبِنَا غِلࣰّا لِّلَّذِينَ ءَامَنُواْ رَبَّنَآ إِنَّكَ رَءُوفࣱ رَّحِيمٌ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "quran",
+          "sourceId": "quran",
+          "surah": "الحشر",
+          "surahNumber": 59,
+          "ayahStart": 10,
+          "ayahEnd": 10
+        }
+      ]
+    },
+    {
+      "id": "quran_dua_60_5",
+      "categoryId": "quran_duas",
+      "kind": "quran",
+      "text": "رَبَّنَا لَا تَجۡعَلۡنَا فِتۡنَةࣰ لِّلَّذِينَ كَفَرُواْ وَٱغۡفِرۡ لَنَا رَبَّنَآۖ إِنَّكَ أَنتَ ٱلۡعَزِيزُ ٱلۡحَكِيمُ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "quran",
+          "sourceId": "quran",
+          "surah": "الممتحنة",
+          "surahNumber": 60,
+          "ayahStart": 5,
+          "ayahEnd": 5
+        }
+      ]
+    },
+    {
+      "id": "quran_dua_66_11",
+      "categoryId": "quran_duas",
+      "kind": "quran",
+      "text": "وَضَرَبَ ٱللَّهُ مَثَلࣰا لِّلَّذِينَ ءَامَنُواْ ٱمۡرَأَتَ فِرۡعَوۡنَ إِذۡ قَالَتۡ رَبِّ ٱبۡنِ لِي عِندَكَ بَيۡتࣰا فِي ٱلۡجَنَّةِ وَنَجِّنِي مِن فِرۡعَوۡنَ وَعَمَلِهِۦ وَنَجِّنِي مِنَ ٱلۡقَوۡمِ ٱلظَّٰلِمِينَ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "quran",
+          "sourceId": "quran",
+          "surah": "التحريم",
+          "surahNumber": 66,
+          "ayahStart": 11,
+          "ayahEnd": 11
+        }
+      ]
+    },
+    {
+      "id": "prophet_dua_7_23",
+      "categoryId": "prophets_duas",
+      "kind": "quran",
+      "text": "قَالَا رَبَّنَا ظَلَمۡنَآ أَنفُسَنَا وَإِن لَّمۡ تَغۡفِرۡ لَنَا وَتَرۡحَمۡنَا لَنَكُونَنَّ مِنَ ٱلۡخَٰسِرِينَ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "quran",
+          "sourceId": "quran",
+          "surah": "الأعراف",
+          "surahNumber": 7,
+          "ayahStart": 23,
+          "ayahEnd": 23
+        }
+      ]
+    },
+    {
+      "id": "prophet_dua_2_128",
+      "categoryId": "prophets_duas",
+      "kind": "quran",
+      "text": "رَبَّنَا وَٱجۡعَلۡنَا مُسۡلِمَيۡنِ لَكَ وَمِن ذُرِّيَّتِنَآ أُمَّةࣰ مُّسۡلِمَةࣰ لَّكَ وَأَرِنَا مَنَاسِكَنَا وَتُبۡ عَلَيۡنَآۖ إِنَّكَ أَنتَ ٱلتَّوَّابُ ٱلرَّحِيمُ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "quran",
+          "sourceId": "quran",
+          "surah": "البقرة",
+          "surahNumber": 2,
+          "ayahStart": 128,
+          "ayahEnd": 128
+        }
+      ]
+    },
+    {
+      "id": "prophet_dua_14_35",
+      "categoryId": "prophets_duas",
+      "kind": "quran",
+      "text": "وَإِذۡ قَالَ إِبۡرَٰهِيمُ رَبِّ ٱجۡعَلۡ هَٰذَا ٱلۡبَلَدَ ءَامِنࣰا وَٱجۡنُبۡنِي وَبَنِيَّ أَن نَّعۡبُدَ ٱلۡأَصۡنَامَ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "quran",
+          "sourceId": "quran",
+          "surah": "إبراهيم",
+          "surahNumber": 14,
+          "ayahStart": 35,
+          "ayahEnd": 35
+        }
+      ]
+    },
+    {
+      "id": "prophet_dua_14_40_41",
+      "categoryId": "prophets_duas",
+      "kind": "quran",
+      "text": "رَبِّ ٱجۡعَلۡنِي مُقِيمَ ٱلصَّلَوٰةِ وَمِن ذُرِّيَّتِيۚ رَبَّنَا وَتَقَبَّلۡ دُعَآءِ رَبَّنَا ٱغۡفِرۡ لِي وَلِوَٰلِدَيَّ وَلِلۡمُؤۡمِنِينَ يَوۡمَ يَقُومُ ٱلۡحِسَابُ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "quran",
+          "sourceId": "quran",
+          "surah": "إبراهيم",
+          "surahNumber": 14,
+          "ayahStart": 40,
+          "ayahEnd": 41
+        }
+      ]
+    },
+    {
+      "id": "prophet_dua_37_100",
+      "categoryId": "prophets_duas",
+      "kind": "quran",
+      "text": "رَبِّ هَبۡ لِي مِنَ ٱلصَّٰلِحِينَ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "quran",
+          "sourceId": "quran",
+          "surah": "الصافات",
+          "surahNumber": 37,
+          "ayahStart": 100,
+          "ayahEnd": 100
+        }
+      ]
+    },
+    {
+      "id": "prophet_dua_26_83_85",
+      "categoryId": "prophets_duas",
+      "kind": "quran",
+      "text": "رَبِّ هَبۡ لِي حُكۡمࣰا وَأَلۡحِقۡنِي بِٱلصَّٰلِحِينَ وَٱجۡعَل لِّي لِسَانَ صِدۡقࣲ فِي ٱلۡأٓخِرِينَ وَٱجۡعَلۡنِي مِن وَرَثَةِ جَنَّةِ ٱلنَّعِيمِ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "quran",
+          "sourceId": "quran",
+          "surah": "الشعراء",
+          "surahNumber": 26,
+          "ayahStart": 83,
+          "ayahEnd": 85
+        }
+      ]
+    },
+    {
+      "id": "prophet_dua_11_47",
+      "categoryId": "prophets_duas",
+      "kind": "quran",
+      "text": "قَالَ رَبِّ إِنِّيٓ أَعُوذُ بِكَ أَنۡ أَسۡـَٔلَكَ مَا لَيۡسَ لِي بِهِۦ عِلۡمࣱۖ وَإِلَّا تَغۡفِرۡ لِي وَتَرۡحَمۡنِيٓ أَكُن مِّنَ ٱلۡخَٰسِرِينَ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "quran",
+          "sourceId": "quran",
+          "surah": "هود",
+          "surahNumber": 11,
+          "ayahStart": 47,
+          "ayahEnd": 47
+        }
+      ]
+    },
+    {
+      "id": "prophet_dua_23_29",
+      "categoryId": "prophets_duas",
+      "kind": "quran",
+      "text": "وَقُل رَّبِّ أَنزِلۡنِي مُنزَلࣰا مُّبَارَكࣰا وَأَنتَ خَيۡرُ ٱلۡمُنزِلِينَ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "quran",
+          "sourceId": "quran",
+          "surah": "المؤمنون",
+          "surahNumber": 23,
+          "ayahStart": 29,
+          "ayahEnd": 29
+        }
+      ]
+    },
+    {
+      "id": "prophet_dua_71_28",
+      "categoryId": "prophets_duas",
+      "kind": "quran",
+      "text": "رَّبِّ ٱغۡفِرۡ لِي وَلِوَٰلِدَيَّ وَلِمَن دَخَلَ بَيۡتِيَ مُؤۡمِنࣰا وَلِلۡمُؤۡمِنِينَ وَٱلۡمُؤۡمِنَٰتِۖ وَلَا تَزِدِ ٱلظَّٰلِمِينَ إِلَّا تَبَارَۢا",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "quran",
+          "sourceId": "quran",
+          "surah": "نوح",
+          "surahNumber": 71,
+          "ayahStart": 28,
+          "ayahEnd": 28
+        }
+      ]
+    },
+    {
+      "id": "prophet_dua_7_151",
+      "categoryId": "prophets_duas",
+      "kind": "quran",
+      "text": "قَالَ رَبِّ ٱغۡفِرۡ لِي وَلِأَخِي وَأَدۡخِلۡنَا فِي رَحۡمَتِكَۖ وَأَنتَ أَرۡحَمُ ٱلرَّٰحِمِينَ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "quran",
+          "sourceId": "quran",
+          "surah": "الأعراف",
+          "surahNumber": 7,
+          "ayahStart": 151,
+          "ayahEnd": 151
+        }
+      ]
+    },
+    {
+      "id": "prophet_dua_20_25_28",
+      "categoryId": "prophets_duas",
+      "kind": "quran",
+      "text": "قَالَ رَبِّ ٱشۡرَحۡ لِي صَدۡرِي وَيَسِّرۡ لِيٓ أَمۡرِي وَٱحۡلُلۡ عُقۡدَةࣰ مِّن لِّسَانِي يَفۡقَهُواْ قَوۡلِي",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "quran",
+          "sourceId": "quran",
+          "surah": "طه",
+          "surahNumber": 20,
+          "ayahStart": 25,
+          "ayahEnd": 28
+        }
+      ]
+    },
+    {
+      "id": "prophet_dua_28_16",
+      "categoryId": "prophets_duas",
+      "kind": "quran",
+      "text": "قَالَ رَبِّ إِنِّي ظَلَمۡتُ نَفۡسِي فَٱغۡفِرۡ لِي فَغَفَرَ لَهُۥٓۚ إِنَّهُۥ هُوَ ٱلۡغَفُورُ ٱلرَّحِيمُ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "quran",
+          "sourceId": "quran",
+          "surah": "القصص",
+          "surahNumber": 28,
+          "ayahStart": 16,
+          "ayahEnd": 16
+        }
+      ]
+    },
+    {
+      "id": "prophet_dua_28_21",
+      "categoryId": "prophets_duas",
+      "kind": "quran",
+      "text": "فَخَرَجَ مِنۡهَا خَآئِفࣰا يَتَرَقَّبُۖ قَالَ رَبِّ نَجِّنِي مِنَ ٱلۡقَوۡمِ ٱلظَّٰلِمِينَ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "quran",
+          "sourceId": "quran",
+          "surah": "القصص",
+          "surahNumber": 28,
+          "ayahStart": 21,
+          "ayahEnd": 21
+        }
+      ]
+    },
+    {
+      "id": "prophet_dua_28_24",
+      "categoryId": "prophets_duas",
+      "kind": "quran",
+      "text": "فَسَقَىٰ لَهُمَا ثُمَّ تَوَلَّىٰٓ إِلَى ٱلظِّلِّ فَقَالَ رَبِّ إِنِّي لِمَآ أَنزَلۡتَ إِلَيَّ مِنۡ خَيۡرࣲ فَقِيرࣱ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "quran",
+          "sourceId": "quran",
+          "surah": "القصص",
+          "surahNumber": 28,
+          "ayahStart": 24,
+          "ayahEnd": 24
+        }
+      ]
+    },
+    {
+      "id": "prophet_dua_12_101",
+      "categoryId": "prophets_duas",
+      "kind": "quran",
+      "text": "رَبِّ قَدۡ ءَاتَيۡتَنِي مِنَ ٱلۡمُلۡكِ وَعَلَّمۡتَنِي مِن تَأۡوِيلِ ٱلۡأَحَادِيثِۚ فَاطِرَ ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضِ أَنتَ وَلِيِّۦ فِي ٱلدُّنۡيَا وَٱلۡأٓخِرَةِۖ تَوَفَّنِي مُسۡلِمࣰا وَأَلۡحِقۡنِي بِٱلصَّٰلِحِينَ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "quran",
+          "sourceId": "quran",
+          "surah": "يوسف",
+          "surahNumber": 12,
+          "ayahStart": 101,
+          "ayahEnd": 101
+        }
+      ]
+    },
+    {
+      "id": "prophet_dua_21_83",
+      "categoryId": "prophets_duas",
+      "kind": "quran",
+      "text": "وَأَيُّوبَ إِذۡ نَادَىٰ رَبَّهُۥٓ أَنِّي مَسَّنِيَ ٱلضُّرُّ وَأَنتَ أَرۡحَمُ ٱلرَّٰحِمِينَ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "quran",
+          "sourceId": "quran",
+          "surah": "الأنبياء",
+          "surahNumber": 21,
+          "ayahStart": 83,
+          "ayahEnd": 83
+        }
+      ]
+    },
+    {
+      "id": "prophet_dua_21_87",
+      "categoryId": "prophets_duas",
+      "kind": "quran",
+      "text": "وَذَا ٱلنُّونِ إِذ ذَّهَبَ مُغَٰضِبࣰا فَظَنَّ أَن لَّن نَّقۡدِرَ عَلَيۡهِ فَنَادَىٰ فِي ٱلظُّلُمَٰتِ أَن لَّآ إِلَٰهَ إِلَّآ أَنتَ سُبۡحَٰنَكَ إِنِّي كُنتُ مِنَ ٱلظَّٰلِمِينَ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "quran",
+          "sourceId": "quran",
+          "surah": "الأنبياء",
+          "surahNumber": 21,
+          "ayahStart": 87,
+          "ayahEnd": 87
+        }
+      ]
+    },
+    {
+      "id": "prophet_dua_21_89",
+      "categoryId": "prophets_duas",
+      "kind": "quran",
+      "text": "وَزَكَرِيَّآ إِذۡ نَادَىٰ رَبَّهُۥ رَبِّ لَا تَذَرۡنِي فَرۡدࣰا وَأَنتَ خَيۡرُ ٱلۡوَٰرِثِينَ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "quran",
+          "sourceId": "quran",
+          "surah": "الأنبياء",
+          "surahNumber": 21,
+          "ayahStart": 89,
+          "ayahEnd": 89
+        }
+      ]
+    },
+    {
+      "id": "prophet_dua_3_38",
+      "categoryId": "prophets_duas",
+      "kind": "quran",
+      "text": "هُنَالِكَ دَعَا زَكَرِيَّا رَبَّهُۥۖ قَالَ رَبِّ هَبۡ لِي مِن لَّدُنكَ ذُرِّيَّةࣰ طَيِّبَةًۖ إِنَّكَ سَمِيعُ ٱلدُّعَآءِ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "quran",
+          "sourceId": "quran",
+          "surah": "آل عمران",
+          "surahNumber": 3,
+          "ayahStart": 38,
+          "ayahEnd": 38
+        }
+      ]
+    },
+    {
+      "id": "prophet_dua_27_19",
+      "categoryId": "prophets_duas",
+      "kind": "quran",
+      "text": "فَتَبَسَّمَ ضَاحِكࣰا مِّن قَوۡلِهَا وَقَالَ رَبِّ أَوۡزِعۡنِيٓ أَنۡ أَشۡكُرَ نِعۡمَتَكَ ٱلَّتِيٓ أَنۡعَمۡتَ عَلَيَّ وَعَلَىٰ وَٰلِدَيَّ وَأَنۡ أَعۡمَلَ صَٰلِحࣰا تَرۡضَىٰهُ وَأَدۡخِلۡنِي بِرَحۡمَتِكَ فِي عِبَادِكَ ٱلصَّٰلِحِينَ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "quran",
+          "sourceId": "quran",
+          "surah": "النمل",
+          "surahNumber": 27,
+          "ayahStart": 19,
+          "ayahEnd": 19
+        }
+      ]
+    },
+    {
+      "id": "prophet_dua_38_35",
+      "categoryId": "prophets_duas",
+      "kind": "quran",
+      "text": "قَالَ رَبِّ ٱغۡفِرۡ لِي وَهَبۡ لِي مُلۡكࣰا لَّا يَنۢبَغِي لِأَحَدࣲ مِّنۢ بَعۡدِيٓۖ إِنَّكَ أَنتَ ٱلۡوَهَّابُ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "quran",
+          "sourceId": "quran",
+          "surah": "ص",
+          "surahNumber": 38,
+          "ayahStart": 35,
+          "ayahEnd": 35
+        }
+      ]
+    },
+    {
+      "id": "prophet_dua_5_114",
+      "categoryId": "prophets_duas",
+      "kind": "quran",
+      "text": "قَالَ عِيسَى ٱبۡنُ مَرۡيَمَ ٱللَّهُمَّ رَبَّنَآ أَنزِلۡ عَلَيۡنَا مَآئِدَةࣰ مِّنَ ٱلسَّمَآءِ تَكُونُ لَنَا عِيدࣰا لِّأَوَّلِنَا وَءَاخِرِنَا وَءَايَةࣰ مِّنكَۖ وَٱرۡزُقۡنَا وَأَنتَ خَيۡرُ ٱلرَّٰزِقِينَ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "quran",
+          "sourceId": "quran",
+          "surah": "المائدة",
+          "surahNumber": 5,
+          "ayahStart": 114,
+          "ayahEnd": 114
+        }
+      ]
+    },
+    {
+      "id": "prophet_dua_26_169",
+      "categoryId": "prophets_duas",
+      "kind": "quran",
+      "text": "رَبِّ نَجِّنِي وَأَهۡلِي مِمَّا يَعۡمَلُونَ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "quran",
+          "sourceId": "quran",
+          "surah": "الشعراء",
+          "surahNumber": 26,
+          "ayahStart": 169,
+          "ayahEnd": 169
+        }
+      ]
+    },
+    {
+      "id": "prophet_dua_29_30",
+      "categoryId": "prophets_duas",
+      "kind": "quran",
+      "text": "قَالَ رَبِّ ٱنصُرۡنِي عَلَى ٱلۡقَوۡمِ ٱلۡمُفۡسِدِينَ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "quran",
+          "sourceId": "quran",
+          "surah": "العنكبوت",
+          "surahNumber": 29,
+          "ayahStart": 30,
+          "ayahEnd": 30
+        }
+      ]
+    },
+    {
+      "id": "prophetic_huda_tuqa",
+      "categoryId": "prophetic_duas",
+      "kind": "propheticDua",
+      "text": "اللَّهُمَّ إِنِّي أَسْأَلُكَ الْهُدَى وَالتُّقَى وَالْعَفَافَ وَالْغِنَى",
       "repeatCount": 1,
       "references": [
         {
           "type": "hadith",
-          "sourceId": "sahih_bukhari",
-          "book": "كتاب الدعوات",
-          "hadithNumber": "6306",
-          "companion": "شداد بن أوس رضي الله عنه",
+          "sourceId": "muslim",
+          "book": "صحيح مسلم",
+          "hadithNumber": "2721",
+          "companion": "عبد الله بن مسعود",
           "grading": "صحيح",
-          "grader": "الإمام البخاري",
-          "gradingSource": "صحيح البخاري",
-          "gradingSourceId": "hadith_grading"
+          "grader": "مسلم",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        }
+      ]
+    },
+    {
+      "id": "prophetic_islah_dini",
+      "categoryId": "prophetic_duas",
+      "kind": "propheticDua",
+      "text": "اللَّهُمَّ أَصْلِحْ لِي دِينِيَ الَّذِي هُوَ عِصْمَةُ أَمْرِي وَأَصْلِحْ لِي دُنْيَاىَ الَّتِي فِيهَا مَعَاشِي وَأَصْلِحْ لِي آخِرَتِي الَّتِي فِيهَا مَعَادِي وَاجْعَلِ الْحَيَاةَ زِيَادَةً لِي فِي كُلِّ خَيْرٍ وَاجْعَلِ الْمَوْتَ رَاحَةً لِي مِنْ كُلِّ شَرٍّ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "muslim",
+          "book": "صحيح مسلم",
+          "hadithNumber": "2720",
+          "companion": "أبو هريرة",
+          "grading": "صحيح",
+          "grader": "مسلم",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        }
+      ]
+    },
+    {
+      "id": "prophetic_ilm_la_yanfa",
+      "categoryId": "prophetic_duas",
+      "kind": "propheticDua",
+      "text": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنْ عِلْمٍ لاَ يَنْفَعُ وَمِنْ قَلْبٍ لاَ يَخْشَعُ وَمِنْ نَفْسٍ لاَ تَشْبَعُ وَمِنْ دَعْوَةٍ لاَ يُسْتَجَابُ لَهَا",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "muslim",
+          "book": "صحيح مسلم",
+          "hadithNumber": "2722",
+          "companion": "زيد بن أرقم",
+          "grading": "صحيح",
+          "grader": "مسلم",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        }
+      ]
+    },
+    {
+      "id": "prophetic_zawal_nima",
+      "categoryId": "prophetic_duas",
+      "kind": "propheticDua",
+      "text": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنْ زَوَالِ نِعْمَتِكَ وَتَحَوُّلِ عَافِيَتِكَ وَفُجَاءَةِ نِقْمَتِكَ وَجَمِيعِ سَخَطِكَ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "muslim",
+          "book": "صحيح مسلم",
+          "hadithNumber": "2739",
+          "companion": "عبد الله بن عمر",
+          "grading": "صحيح",
+          "grader": "مسلم",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        }
+      ]
+    },
+    {
+      "id": "prophetic_ighfir_khatiati",
+      "categoryId": "prophetic_duas",
+      "kind": "propheticDua",
+      "text": "رَبِّ اغْفِرْ لِي خَطِيئَتِي وَجَهْلِي وَإِسْرَافِي فِي أَمْرِي كُلِّهِ، وَمَا أَنْتَ أَعْلَمُ بِهِ مِنِّي، اللَّهُمَّ اغْفِرْ لِي خَطَايَاىَ وَعَمْدِي وَجَهْلِي وَهَزْلِي، وَكُلُّ ذَلِكَ عِنْدِي، اللَّهُمَّ اغْفِرْ لِي مَا قَدَّمْتُ وَمَا أَخَّرْتُ وَمَا أَسْرَرْتُ وَمَا أَعْلَنْتُ، أَنْتَ الْمُقَدِّمُ، وَأَنْتَ الْمُؤَخِّرُ، وَأَنْتَ عَلَى كُلِّ شَىْءٍ قَدِيرٌ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "bukhari",
+          "book": "صحيح البخاري",
+          "hadithNumber": "6398",
+          "companion": "أبو موسى الأشعري",
+          "grading": "صحيح",
+          "grader": "البخاري",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        }
+      ]
+    },
+    {
+      "id": "prophetic_zalamtu_nafsi",
+      "categoryId": "prophetic_duas",
+      "kind": "propheticDua",
+      "text": "اللَّهُمَّ إِنِّي ظَلَمْتُ نَفْسِي ظُلْمًا كَثِيرًا وَلَا يَغْفِرُ الذُّنُوبَ إِلاَّ أَنْتَ، فَاغْفِرْ لِي مَغْفِرَةً مِنْ عِنْدِكَ، وَارْحَمْنِي إِنَّكَ أَنْتَ الْغَفُورُ الرَّحِيمُ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "bukhari",
+          "book": "صحيح البخاري",
+          "hadithNumber": "834",
+          "companion": "أبو بكر الصديق",
+          "grading": "صحيح",
+          "grader": "البخاري",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        },
+        {
+          "type": "hadith",
+          "sourceId": "muslim",
+          "book": "صحيح مسلم",
+          "hadithNumber": "2705",
+          "companion": "أبو بكر الصديق",
+          "grading": "صحيح",
+          "grader": "مسلم",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        }
+      ]
+    },
+    {
+      "id": "prophetic_taawwudh_tashahhud",
+      "categoryId": "prophetic_duas",
+      "kind": "propheticDua",
+      "text": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنْ عَذَابِ جَهَنَّمَ وَمِنْ عَذَابِ الْقَبْرِ وَمِنْ فِتْنَةِ الْمَحْيَا وَالْمَمَاتِ وَمِنْ شَرِّ فِتْنَةِ الْمَسِيحِ الدَّجَّالِ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "muslim",
+          "book": "صحيح مسلم",
+          "hadithNumber": "588",
+          "companion": "أبو هريرة",
+          "grading": "صحيح",
+          "grader": "مسلم",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        }
+      ]
+    },
+    {
+      "id": "prophetic_istiftah_baid",
+      "categoryId": "prophetic_duas",
+      "kind": "propheticDua",
+      "text": "اللَّهُمَّ بَاعِدْ بَيْنِي وَبَيْنَ خَطَايَاىَ كَمَا بَاعَدْتَ بَيْنَ الْمَشْرِقِ وَالْمَغْرِبِ، اللَّهُمَّ نَقِّنِي مِنَ الْخَطَايَا كَمَا يُنَقَّى الثَّوْبُ الأَبْيَضُ مِنَ الدَّنَسِ، اللَّهُمَّ اغْسِلْ خَطَايَاىَ بِالْمَاءِ وَالثَّلْجِ وَالْبَرَدِ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "bukhari",
+          "book": "صحيح البخاري",
+          "hadithNumber": "744",
+          "companion": "أبو هريرة",
+          "grading": "صحيح",
+          "grader": "البخاري",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        }
+      ]
+    },
+    {
+      "id": "prophetic_tahajjud_lakal_hamd",
+      "categoryId": "prophetic_duas",
+      "kind": "propheticDua",
+      "text": "اللَّهُمَّ لَكَ الْحَمْدُ أَنْتَ قَيِّمُ السَّمَوَاتِ وَالأَرْضِ وَمَنْ فِيهِنَّ وَلَكَ الْحَمْدُ، لَكَ مُلْكُ السَّمَوَاتِ وَالأَرْضِ وَمَنْ فِيهِنَّ، وَلَكَ الْحَمْدُ أَنْتَ نُورُ السَّمَوَاتِ وَالأَرْضِ، وَلَكَ الْحَمْدُ أَنْتَ الْحَقُّ، وَوَعْدُكَ الْحَقُّ، وَلِقَاؤُكَ حَقٌّ، وَقَوْلُكَ حَقٌّ، وَالْجَنَّةُ حَقٌّ، وَالنَّارُ حَقٌّ، وَالنَّبِيُّونَ حَقٌّ، وَمُحَمَّدٌ صلى الله عليه وسلم حَقٌّ، وَالسَّاعَةُ حَقٌّ، اللَّهُمَّ لَكَ أَسْلَمْتُ، وَبِكَ آمَنْتُ وَعَلَيْكَ تَوَكَّلْتُ، وَإِلَيْكَ أَنَبْتُ، وَبِكَ خَاصَمْتُ، وَإِلَيْكَ حَاكَمْتُ، فَاغْفِرْ لِي مَا قَدَّمْتُ وَمَا أَخَّرْتُ، وَمَا أَسْرَرْتُ وَمَا أَعْلَنْتُ، أَنْتَ الْمُقَدِّمُ وَأَنْتَ الْمُؤَخِّرُ، لاَ إِلَهَ إِلاَّ أَنْتَ ـ أَوْ لاَ إِلَهَ غَيْرُكَ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "bukhari",
+          "book": "صحيح البخاري",
+          "hadithNumber": "1120",
+          "companion": "عبد الله بن عباس",
+          "grading": "صحيح",
+          "grader": "البخاري",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        }
+      ]
+    },
+    {
+      "id": "prophetic_ihdini_saddidni",
+      "categoryId": "prophetic_duas",
+      "kind": "propheticDua",
+      "text": "اللَّهُمَّ اهْدِنِي وَسَدِّدْنِي",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "muslim",
+          "book": "صحيح مسلم",
+          "hadithNumber": "2725",
+          "companion": "علي بن أبي طالب",
+          "grading": "صحيح",
+          "grader": "مسلم",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        }
+      ]
+    },
+    {
+      "id": "prophetic_rabbi_fatir_night",
+      "categoryId": "prophetic_duas",
+      "kind": "propheticDua",
+      "text": "اللَّهُمَّ رَبَّ جِبْرَائِيلَ وَمِيكَائِيلَ وَإِسْرَافِيلَ فَاطِرَ السَّمَوَاتِ وَالأَرْضِ عَالِمَ الْغَيْبِ وَالشَّهَادَةِ أَنْتَ تَحْكُمُ بَيْنَ عِبَادِكَ فِيمَا كَانُوا فِيهِ يَخْتَلِفُونَ اهْدِنِي لِمَا اخْتُلِفَ فِيهِ مِنَ الْحَقِّ بِإِذْنِكَ إِنَّكَ تَهْدِي مَنْ تَشَاءُ إِلَى صِرَاطٍ مُسْتَقِيمٍ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "muslim",
+          "book": "صحيح مسلم",
+          "hadithNumber": "770",
+          "companion": "عائشة",
+          "grading": "صحيح",
+          "grader": "مسلم",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        }
+      ]
+    },
+    {
+      "id": "occ_enter_khala",
+      "categoryId": "occasions_duas",
+      "kind": "propheticDua",
+      "text": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْخُبُثِ وَالْخَبَائِثِ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "bukhari",
+          "book": "صحيح البخاري",
+          "hadithNumber": "142",
+          "companion": "أنس بن مالك",
+          "grading": "صحيح",
+          "grader": "البخاري",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        },
+        {
+          "type": "hadith",
+          "sourceId": "muslim",
+          "book": "صحيح مسلم",
+          "hadithNumber": "375",
+          "companion": "أنس بن مالك",
+          "grading": "صحيح",
+          "grader": "مسلم",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        }
+      ]
+    },
+    {
+      "id": "occ_exit_khala",
+      "categoryId": "occasions_duas",
+      "kind": "propheticDhikr",
+      "text": "غُفْرَانَكَ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "abudawud",
+          "book": "سنن أبي داود",
+          "hadithNumber": "30",
+          "companion": "عائشة",
+          "grading": "صحيح",
+          "grader": "الألباني",
+          "gradingSource": "أحكام الألباني على أحاديث السنن",
+          "gradingSourceId": "grading_albani"
+        },
+        {
+          "type": "hadith",
+          "sourceId": "tirmidhi",
+          "book": "سنن الترمذي",
+          "hadithNumber": "7",
+          "companion": "عائشة",
+          "grading": "صحيح",
+          "grader": "الألباني",
+          "gradingSource": "أحكام الألباني على أحاديث السنن",
+          "gradingSourceId": "grading_albani"
+        }
+      ]
+    },
+    {
+      "id": "occ_enter_masjid",
+      "categoryId": "occasions_duas",
+      "kind": "propheticDua",
+      "text": "اللَّهُمَّ افْتَحْ لِي أَبْوَابَ رَحْمَتِكَ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "muslim",
+          "book": "صحيح مسلم",
+          "hadithNumber": "713",
+          "companion": "أبو حميد أو أبو أسيد الأنصاري",
+          "grading": "صحيح",
+          "grader": "مسلم",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        }
+      ]
+    },
+    {
+      "id": "occ_exit_masjid",
+      "categoryId": "occasions_duas",
+      "kind": "propheticDua",
+      "text": "اللَّهُمَّ إِنِّي أَسْأَلُكَ مِنْ فَضْلِكَ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "muslim",
+          "book": "صحيح مسلم",
+          "hadithNumber": "713",
+          "companion": "أبو حميد أو أبو أسيد الأنصاري",
+          "grading": "صحيح",
+          "grader": "مسلم",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        }
+      ]
+    },
+    {
+      "id": "occ_leave_home",
+      "categoryId": "occasions_duas",
+      "kind": "propheticDhikr",
+      "text": "بِسْمِ اللَّهِ تَوَكَّلْتُ عَلَى اللَّهِ لاَ حَوْلَ وَلاَ قُوَّةَ إِلاَّ بِاللَّهِ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "abudawud",
+          "book": "سنن أبي داود",
+          "hadithNumber": "5095",
+          "companion": "أنس بن مالك",
+          "grading": "صحيح",
+          "grader": "الألباني",
+          "gradingSource": "أحكام الألباني على أحاديث السنن",
+          "gradingSourceId": "grading_albani"
+        },
+        {
+          "type": "hadith",
+          "sourceId": "tirmidhi",
+          "book": "سنن الترمذي",
+          "hadithNumber": "3426",
+          "companion": "أنس بن مالك",
+          "grading": "صحيح",
+          "grader": "الألباني",
+          "gradingSource": "أحكام الألباني على أحاديث السنن",
+          "gradingSourceId": "grading_albani"
+        }
+      ]
+    },
+    {
+      "id": "occ_before_eating",
+      "categoryId": "occasions_duas",
+      "kind": "propheticDhikr",
+      "text": "بِسْمِ اللَّهِ أَوَّلَهُ وَآخِرَهُ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "abudawud",
+          "book": "سنن أبي داود",
+          "hadithNumber": "3767",
+          "companion": "عائشة",
+          "grading": "صحيح",
+          "grader": "الألباني",
+          "gradingSource": "أحكام الألباني على أحاديث السنن",
+          "gradingSourceId": "grading_albani"
+        }
+      ]
+    },
+    {
+      "id": "occ_after_eating_bukhari",
+      "categoryId": "occasions_duas",
+      "kind": "propheticDhikr",
+      "text": "الْحَمْدُ لِلَّهِ كَثِيرًا طَيِّبًا مُبَارَكًا فِيهِ، غَيْرَ مَكْفِيٍّ، وَلاَ مُوَدَّعٍ وَلاَ مُسْتَغْنًى عَنْهُ، رَبَّنَا",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "bukhari",
+          "book": "صحيح البخاري",
+          "hadithNumber": "5458",
+          "companion": "أبو أمامة الباهلي",
+          "grading": "صحيح",
+          "grader": "البخاري",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        }
+      ]
+    },
+    {
+      "id": "occ_guest_for_host",
+      "categoryId": "occasions_duas",
+      "kind": "propheticDua",
+      "text": "اللَّهُمَّ بَارِكْ لَهُمْ فِي مَا رَزَقْتَهُمْ وَاغْفِرْ لَهُمْ وَارْحَمْهُمْ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "muslim",
+          "book": "صحيح مسلم",
+          "hadithNumber": "2042",
+          "companion": "عبد الله بن بسر",
+          "grading": "صحيح",
+          "grader": "مسلم",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        }
+      ]
+    },
+    {
+      "id": "occ_travel_riding",
+      "categoryId": "occasions_duas",
+      "kind": "propheticDua",
+      "text": "سُبْحَانَ الَّذِي سَخَّرَ لَنَا هَذَا وَمَا كُنَّا لَهُ مُقْرِنِينَ وَإِنَّا إِلَى رَبِّنَا لَمُنْقَلِبُونَ اللَّهُمَّ إِنَّا نَسْأَلُكَ فِي سَفَرِنَا هَذَا الْبِرَّ وَالتَّقْوَى وَمِنَ الْعَمَلِ مَا تَرْضَى اللَّهُمَّ هَوِّنْ عَلَيْنَا سَفَرَنَا هَذَا وَاطْوِ عَنَّا بُعْدَهُ اللَّهُمَّ أَنْتَ الصَّاحِبُ فِي السَّفَرِ وَالْخَلِيفَةُ فِي الأَهْلِ اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنْ وَعْثَاءِ السَّفَرِ وَكَآبَةِ الْمَنْظَرِ وَسُوءِ الْمُنْقَلَبِ فِي الْمَالِ وَالأَهْلِ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "muslim",
+          "book": "صحيح مسلم",
+          "hadithNumber": "1342",
+          "companion": "عبد الله بن عمر",
+          "grading": "صحيح",
+          "grader": "مسلم",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        }
+      ],
+      "notes": "يكبّر ثلاثًا (الله أكبر الله أكبر الله أكبر) ثم يقول الدعاء، كما في الحديث."
+    },
+    {
+      "id": "occ_alighting_place",
+      "categoryId": "occasions_duas",
+      "kind": "propheticDhikr",
+      "text": "أَعُوذُ بِكَلِمَاتِ اللَّهِ التَّامَّاتِ مِنْ شَرِّ مَا خَلَقَ",
+      "repeatCount": 3,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "muslim",
+          "book": "صحيح مسلم",
+          "hadithNumber": "2708",
+          "companion": "خولة بنت حكيم السلمية",
+          "grading": "صحيح",
+          "grader": "مسلم",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
         }
       ],
       "virtues": [
         {
-          "referenceIndex": 0,
-          "text": "من قاله موقنًا به حين يصبح فمات من يومه قبل أن يمسي فهو من أهل الجنة، ومن قاله حين يمسي فمات قبل أن يصبح فهو من أهل الجنة."
+          "text": "لَمْ يَضُرُّهُ شَىْءٌ حَتَّى يَرْتَحِلَ",
+          "referenceIndex": 0
+        }
+      ]
+    },
+    {
+      "id": "occ_visit_sick",
+      "categoryId": "occasions_duas",
+      "kind": "propheticDua",
+      "text": "لاَ بَأْسَ طَهُورٌ إِنْ شَاءَ اللَّهُ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "bukhari",
+          "book": "صحيح البخاري",
+          "hadithNumber": "3616",
+          "companion": "عبد الله بن عباس",
+          "grading": "صحيح",
+          "grader": "البخاري",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        }
+      ]
+    },
+    {
+      "id": "occ_ruqya_sick_hand",
+      "categoryId": "occasions_duas",
+      "kind": "propheticDua",
+      "text": "أَعُوذُ بِاللَّهِ وَقُدْرَتِهِ مِنْ شَرِّ مَا أَجِدُ وَأُحَاذِرُ",
+      "repeatCount": 7,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "muslim",
+          "book": "صحيح مسلم",
+          "hadithNumber": "2202",
+          "companion": "عثمان بن أبي العاص",
+          "grading": "صحيح",
+          "grader": "مسلم",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        }
+      ],
+      "notes": "يضع يده على موضع الألم من جسده ويقول: «بسم الله» ثلاثًا، ثم يقول الدعاء سبع مرات."
+    },
+    {
+      "id": "occ_ruqya_athhib_al_bas",
+      "categoryId": "occasions_duas",
+      "kind": "propheticDua",
+      "text": "أَذْهِبِ الْبَاسَ رَبَّ النَّاسِ، اشْفِ وَأَنْتَ الشَّافِي لاَ شِفَاءَ إِلاَّ شِفَاؤُكَ، شِفَاءً لاَ يُغَادِرُ سَقَمًا",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "bukhari",
+          "book": "صحيح البخاري",
+          "hadithNumber": "5675",
+          "companion": "عائشة",
+          "grading": "صحيح",
+          "grader": "البخاري",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        },
+        {
+          "type": "hadith",
+          "sourceId": "muslim",
+          "book": "صحيح مسلم",
+          "hadithNumber": "2191",
+          "companion": "عائشة",
+          "grading": "صحيح",
+          "grader": "مسلم",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        }
+      ]
+    },
+    {
+      "id": "occ_ruqya_asalullah_azim",
+      "categoryId": "occasions_duas",
+      "kind": "propheticDua",
+      "text": "أَسْأَلُ اللَّهَ الْعَظِيمَ رَبَّ الْعَرْشِ الْعَظِيمِ أَنْ يَشْفِيَكَ",
+      "repeatCount": 7,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "abudawud",
+          "book": "سنن أبي داود",
+          "hadithNumber": "3106",
+          "companion": "عبد الله بن عباس",
+          "grading": "صحيح",
+          "grader": "الألباني",
+          "gradingSource": "أحكام الألباني على أحاديث السنن",
+          "gradingSourceId": "grading_albani"
+        }
+      ]
+    },
+    {
+      "id": "occ_anger",
+      "categoryId": "occasions_duas",
+      "kind": "propheticDhikr",
+      "text": "أَعُوذُ بِاللَّهِ مِنَ الشَّيْطَانِ الرَّجِيمِ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "bukhari",
+          "book": "صحيح البخاري",
+          "hadithNumber": "6115",
+          "companion": "سليمان بن صرد",
+          "grading": "صحيح",
+          "grader": "البخاري",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        },
+        {
+          "type": "hadith",
+          "sourceId": "muslim",
+          "book": "صحيح مسلم",
+          "hadithNumber": "2610",
+          "companion": "سليمان بن صرد",
+          "grading": "صحيح",
+          "grader": "مسلم",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        }
+      ]
+    },
+    {
+      "id": "occ_worry_grief",
+      "categoryId": "occasions_duas",
+      "kind": "propheticDua",
+      "text": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْهَمِّ وَالْحَزَنِ، وَالْعَجْزِ وَالْكَسَلِ، وَالْجُبْنِ وَالْبُخْلِ، وَضَلَعِ الدَّيْنِ، وَغَلَبَةِ الرِّجَالِ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "bukhari",
+          "book": "صحيح البخاري",
+          "hadithNumber": "6369",
+          "companion": "أنس بن مالك",
+          "grading": "صحيح",
+          "grader": "البخاري",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        }
+      ]
+    },
+    {
+      "id": "occ_distress_azim_halim",
+      "categoryId": "occasions_duas",
+      "kind": "propheticDhikr",
+      "text": "لاَ إِلَهَ إِلاَّ اللَّهُ الْعَظِيمُ الْحَلِيمُ، لاَ إِلَهَ إِلاَّ اللَّهُ رَبُّ السَّمَوَاتِ وَالأَرْضِ، رَبُّ الْعَرْشِ الْعَظِيمِ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "bukhari",
+          "book": "صحيح البخاري",
+          "hadithNumber": "6345",
+          "companion": "عبد الله بن عباس",
+          "grading": "صحيح",
+          "grader": "البخاري",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        },
+        {
+          "type": "hadith",
+          "sourceId": "muslim",
+          "book": "صحيح مسلم",
+          "hadithNumber": "2730",
+          "companion": "عبد الله بن عباس",
+          "grading": "صحيح",
+          "grader": "مسلم",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        }
+      ]
+    },
+    {
+      "id": "occ_hasbunallah",
+      "categoryId": "occasions_duas",
+      "kind": "propheticDhikr",
+      "text": "حَسْبُنَا اللَّهُ وَنِعْمَ الْوَكِيلُ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "bukhari",
+          "book": "صحيح البخاري",
+          "hadithNumber": "4563",
+          "companion": "عبد الله بن عباس",
+          "grading": "صحيح",
+          "grader": "البخاري",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        }
+      ]
+    },
+    {
+      "id": "occ_dhunnun",
+      "categoryId": "occasions_duas",
+      "kind": "propheticDua",
+      "text": "لاَ إِلَهَ إِلاَّ أَنْتَ سُبْحَانَكَ إِنِّي كُنْتُ مِنَ الظَّالِمِينَ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "tirmidhi",
+          "book": "سنن الترمذي",
+          "hadithNumber": "3505",
+          "companion": "سعد بن أبي وقاص",
+          "grading": "صحيح",
+          "grader": "الألباني",
+          "gradingSource": "أحكام الألباني على أحاديث السنن",
+          "gradingSourceId": "grading_albani"
+        }
+      ]
+    },
+    {
+      "id": "occ_debt",
+      "categoryId": "occasions_duas",
+      "kind": "propheticDua",
+      "text": "اللَّهُمَّ اكْفِنِي بِحَلاَلِكَ عَنْ حَرَامِكَ وَأَغْنِنِي بِفَضْلِكَ عَمَّنْ سِوَاكَ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "tirmidhi",
+          "book": "سنن الترمذي",
+          "hadithNumber": "3563",
+          "companion": "علي بن أبي طالب",
+          "grading": "حسن",
+          "grader": "الألباني",
+          "gradingSource": "أحكام الألباني على أحاديث السنن",
+          "gradingSourceId": "grading_albani"
+        }
+      ]
+    },
+    {
+      "id": "occ_calamity",
+      "categoryId": "occasions_duas",
+      "kind": "propheticDhikr",
+      "text": "إِنَّا لِلَّهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ اللَّهُمَّ أْجُرْنِي فِي مُصِيبَتِي وَأَخْلِفْ لِي خَيْرًا مِنْهَا",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "muslim",
+          "book": "صحيح مسلم",
+          "hadithNumber": "918",
+          "companion": "أم سلمة",
+          "grading": "صحيح",
+          "grader": "مسلم",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        }
+      ]
+    },
+    {
+      "id": "occ_wind",
+      "categoryId": "occasions_duas",
+      "kind": "propheticDua",
+      "text": "اللَّهُمَّ إِنِّي أَسْأَلُكَ خَيْرَهَا وَخَيْرَ مَا فِيهَا وَخَيْرَ مَا أُرْسِلَتْ بِهِ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "muslim",
+          "book": "صحيح مسلم",
+          "hadithNumber": "899",
+          "companion": "عائشة",
+          "grading": "صحيح",
+          "grader": "مسلم",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        }
+      ]
+    },
+    {
+      "id": "occ_rain",
+      "categoryId": "occasions_duas",
+      "kind": "propheticDua",
+      "text": "صَيِّبًا نَافِعًا",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "bukhari",
+          "book": "صحيح البخاري",
+          "hadithNumber": "1032",
+          "companion": "عائشة",
+          "grading": "صحيح",
+          "grader": "البخاري",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        }
+      ]
+    },
+    {
+      "id": "occ_sneeze_hamd",
+      "categoryId": "occasions_duas",
+      "kind": "propheticDhikr",
+      "text": "الْحَمْدُ لِلَّهِ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "bukhari",
+          "book": "صحيح البخاري",
+          "hadithNumber": "6224",
+          "companion": "أبو هريرة",
+          "grading": "صحيح",
+          "grader": "البخاري",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        }
+      ]
+    },
+    {
+      "id": "occ_sneeze_response",
+      "categoryId": "occasions_duas",
+      "kind": "propheticDua",
+      "text": "يَرْحَمُكَ اللَّهُ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "bukhari",
+          "book": "صحيح البخاري",
+          "hadithNumber": "6224",
+          "companion": "أبو هريرة",
+          "grading": "صحيح",
+          "grader": "البخاري",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        }
+      ]
+    },
+    {
+      "id": "occ_sneeze_reply",
+      "categoryId": "occasions_duas",
+      "kind": "propheticDua",
+      "text": "يَهْدِيكُمُ اللَّهُ وَيُصْلِحُ بَالَكُمْ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "bukhari",
+          "book": "صحيح البخاري",
+          "hadithNumber": "6224",
+          "companion": "أبو هريرة",
+          "grading": "صحيح",
+          "grader": "البخاري",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        }
+      ]
+    },
+    {
+      "id": "occ_before_intimacy",
+      "categoryId": "occasions_duas",
+      "kind": "propheticDua",
+      "text": "بِسْمِ اللَّهِ اللَّهُمَّ جَنِّبْنَا الشَّيْطَانَ وَجَنِّبِ الشَّيْطَانَ مَا رَزَقْتَنَا",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "bukhari",
+          "book": "صحيح البخاري",
+          "hadithNumber": "5165",
+          "companion": "عبد الله بن عباس",
+          "grading": "صحيح",
+          "grader": "البخاري",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        }
+      ]
+    },
+    {
+      "id": "occ_protect_children",
+      "categoryId": "occasions_duas",
+      "kind": "propheticDua",
+      "text": "أَعُوذُ بِكَلِمَاتِ اللَّهِ التَّامَّةِ مِنْ كُلِّ شَيْطَانٍ وَهَامَّةٍ، وَمِنْ كُلِّ عَيْنٍ لاَمَّةٍ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "bukhari",
+          "book": "صحيح البخاري",
+          "hadithNumber": "3371",
+          "companion": "عبد الله بن عباس",
+          "grading": "صحيح",
+          "grader": "البخاري",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        }
+      ]
+    },
+    {
+      "id": "occ_marriage_congrats",
+      "categoryId": "occasions_duas",
+      "kind": "propheticDua",
+      "text": "بَارَكَ اللَّهُ لَكَ وَبَارَكَ عَلَيْكَ وَجَمَعَ بَيْنَكُمَا فِي خَيْرٍ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "abudawud",
+          "book": "سنن أبي داود",
+          "hadithNumber": "2130",
+          "companion": "أبو هريرة",
+          "grading": "صحيح",
+          "grader": "الألباني",
+          "gradingSource": "أحكام الألباني على أحاديث السنن",
+          "gradingSourceId": "grading_albani"
+        }
+      ]
+    },
+    {
+      "id": "occ_visit_graves",
+      "categoryId": "occasions_duas",
+      "kind": "propheticDua",
+      "text": "السَّلاَمُ عَلَيْكُمْ أَهْلَ الدِّيَارِ مِنَ الْمُؤْمِنِينَ وَالْمُسْلِمِينَ وَإِنَّا إِنْ شَاءَ اللَّهُ لَلَاحِقُونَ أَسْأَلُ اللَّهَ لَنَا وَلَكُمْ الْعَافِيَةَ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "muslim",
+          "book": "صحيح مسلم",
+          "hadithNumber": "975",
+          "companion": "بريدة بن الحصيب",
+          "grading": "صحيح",
+          "grader": "مسلم",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        }
+      ]
+    },
+    {
+      "id": "occ_janaza_deceased",
+      "categoryId": "occasions_duas",
+      "kind": "propheticDua",
+      "text": "اللَّهُمَّ اغْفِرْ لَهُ وَارْحَمْهُ وَعَافِهِ وَاعْفُ عَنْهُ وَأَكْرِمْ نُزُلَهُ وَوَسِّعْ مُدْخَلَهُ وَاغْسِلْهُ بِالْمَاءِ وَالثَّلْجِ وَالْبَرَدِ وَنَقِّهِ مِنَ الْخَطَايَا كَمَا نَقَّيْتَ الثَّوْبَ الأَبْيَضَ مِنَ الدَّنَسِ وَأَبْدِلْهُ دَارًا خَيْرًا مِنْ دَارِهِ وَأَهْلاً خَيْرًا مِنْ أَهْلِهِ وَزَوْجًا خَيْرًا مِنْ زَوْجِهِ وَأَدْخِلْهُ الْجَنَّةَ وَأَعِذْهُ مِنْ عَذَابِ الْقَبْرِ أَوْ مِنْ عَذَابِ النَّارِ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "muslim",
+          "book": "صحيح مسلم",
+          "hadithNumber": "963",
+          "companion": "عوف بن مالك",
+          "grading": "صحيح",
+          "grader": "مسلم",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
+        }
+      ]
+    },
+    {
+      "id": "occ_after_wudu",
+      "categoryId": "occasions_duas",
+      "kind": "propheticDhikr",
+      "text": "أَشْهَدُ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ",
+      "repeatCount": 1,
+      "references": [
+        {
+          "type": "hadith",
+          "sourceId": "muslim",
+          "book": "صحيح مسلم",
+          "hadithNumber": "234",
+          "companion": "عمر بن الخطاب",
+          "grading": "صحيح",
+          "grader": "مسلم",
+          "gradingSource": "التزام الصحة في الجامع الصحيح وتلقي الأمة له بالقبول",
+          "gradingSourceId": "grading_sahihayn"
         }
       ]
     }

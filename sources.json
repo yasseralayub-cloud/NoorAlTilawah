@@ -1,70 +1,69 @@
-
 {
   "version": 1,
   "sources": [
     {
-      "id": "quran_hafs",
-      "name": "القرآن الكريم، برواية حفص عن عاصم",
+      "id": "quran",
+      "name": "القرآن الكريم — رواية حفص عن عاصم (الرسم العثماني)",
       "type": "quran",
-      "publisher": "مجمع الملك فهد لطباعة المصحف الشريف",
-      "url": "https://qurancomplex.gov.sa/",
-      "notes": "المصدر المعتمد لنصوص الآيات القرآنية ومواضعها."
+      "notes": "نصوص الآيات مأخوذة من إصدار ara-quranuthmanihaf في مستودع fawazahmed0/quran-api (مبني على نص Tanzil العثماني)، وطُبّق عليه حذف علامة الحزب وتوحيد المسافات حول التنوين المفتوح. يُنصح بمراجعته على مصحف المجمع.",
+      "url": "https://github.com/fawazahmed0/quran-api"
     },
     {
-      "id": "sahih_bukhari",
-      "name": "صحيح البخاري",
+      "id": "bukhari",
+      "name": "الجامع الصحيح (صحيح البخاري)",
       "type": "hadithCollection",
-      "publisher": "الإمام محمد بن إسماعيل البخاري",
+      "author": "محمد بن إسماعيل البخاري",
       "url": "https://sunnah.com/bukhari",
-      "notes": "تُذكر أرقام الأحاديث وفق ترقيم صحيح البخاري المتداول."
+      "notes": "ترقيم الأحاديث على ترقيم فتح الباري."
     },
     {
-      "id": "sahih_muslim",
-      "name": "صحيح مسلم",
+      "id": "muslim",
+      "name": "المسند الصحيح المختصر (صحيح مسلم)",
       "type": "hadithCollection",
-      "publisher": "الإمام مسلم بن الحجاج",
+      "author": "مسلم بن الحجاج النيسابوري",
       "url": "https://sunnah.com/muslim",
-      "notes": "تُذكر أرقام الأحاديث وفق ترقيم صحيح مسلم المتداول."
+      "notes": "ترقيم الأحاديث على ترقيم محمد فؤاد عبد الباقي كما في حقل arabicnumber من القاعدة المرجعية."
     },
     {
-      "id": "abu_dawud",
+      "id": "abudawud",
       "name": "سنن أبي داود",
       "type": "hadithCollection",
-      "publisher": "الإمام أبو داود السجستاني",
-      "url": "https://sunnah.com/abudawud",
-      "notes": "تُراجع الأحاديث وأحكامها قبل إضافتها."
+      "author": "أبو داود سليمان بن الأشعث السجستاني",
+      "url": "https://sunnah.com/abudawud"
     },
     {
       "id": "tirmidhi",
       "name": "جامع الترمذي",
       "type": "hadithCollection",
-      "publisher": "الإمام محمد بن عيسى الترمذي",
-      "url": "https://sunnah.com/tirmidhi",
-      "notes": "تُراجع الأحاديث وأحكامها قبل إضافتها."
+      "author": "محمد بن عيسى الترمذي",
+      "url": "https://sunnah.com/tirmidhi"
     },
     {
-      "id": "nasai",
-      "name": "سنن النسائي",
-      "type": "hadithCollection",
-      "publisher": "الإمام أحمد بن شعيب النسائي",
-      "url": "https://sunnah.com/nasai",
-      "notes": "تُراجع الأحاديث وأحكامها قبل إضافتها."
-    },
-    {
-      "id": "ibn_majah",
+      "id": "ibnmajah",
       "name": "سنن ابن ماجه",
       "type": "hadithCollection",
-      "publisher": "الإمام محمد بن يزيد ابن ماجه",
-      "url": "https://sunnah.com/ibnmajah",
-      "notes": "تُراجع الأحاديث وأحكامها قبل إضافتها."
+      "author": "محمد بن يزيد ابن ماجه القزويني",
+      "url": "https://sunnah.com/ibnmajah"
     },
     {
-      "id": "hadith_grading",
-      "name": "أحكام المحدثين على الأحاديث",
+      "id": "grading_sahihayn",
+      "name": "التزام الشيخين الصحة في صحيحيهما وتلقي الأمة لهما بالقبول",
       "type": "hadithGrading",
-      "publisher": "مصادر أحكام الحديث المعتمدة",
-      "url": "https://dorar.net/hadith",
-      "notes": "يجب تسجيل حكم الحديث واسم العالم ومصدر الحكم لكل حديث يحتاج إلى تخريج."
+      "notes": "يُحكم بالصحة على ما في الصحيحين لالتزام صاحبيهما بالصحة وتلقي الأمة لهما بالقبول، مع استثناء ما انتقده الحفاظ وهو خارج ما أُدرج هنا."
+    },
+    {
+      "id": "grading_albani",
+      "name": "أحكام الألباني على أحاديث السنن",
+      "type": "hadithGrading",
+      "author": "محمد ناصر الدين الألباني",
+      "notes": "الأحكام منقولة من حقل grades في قاعدة hadith-api (sunnah.com) ولم تُطابق على طبعات كتب الألباني مباشرة؛ ولم يُدرج إلا ما حكم عليه الألباني بالصحة أو الحسن ولم يُضعّفه أحد ممن في القاعدة."
+    },
+    {
+      "id": "dataset_hadith_api",
+      "name": "hadith-api (مستودع fawazahmed0)",
+      "type": "externalDatabase",
+      "url": "https://github.com/fawazahmed0/hadith-api",
+      "notes": "قاعدة بيانات مفتوحة استُخدمت للتحقق من رقم كل حديث ومطابقة نصه وأحكامه؛ يُراجع ترخيصها قبل النشر."
     }
   ]
 }
