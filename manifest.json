@@ -1,0 +1,18 @@
+{
+  "id": "noor-adhkar",
+  "version": "1",
+  "files": [
+    {
+      "name": "adhkar.json",
+      "url": "https://raw.githubusercontent.com/yasseralayub-cloud/NoorAlTilawah/main/adhkar.json",
+      "sha256": "c55f80778f043a4686b2cc81c83bf8135b1959e065210e374d231892beee2ac2",
+      "bytes": 125077
+    },
+    {
+      "name": "sources.json",
+      "url": "https://raw.githubusercontent.com/yasseralayub-cloud/NoorAlTilawah/main/sources.json",
+      "sha256": "db5fc68492a7496706326eee37a57bdcd34634870609a4a0f2ce685604e3fe29",
+      "bytes": 3444
+    }
+  ]
+}
